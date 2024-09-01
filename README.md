@@ -17,7 +17,7 @@ Pet = input("What's your pet name ")  [The program prompts the user to enter the
 
 Step 4 Generate and Print Band Name:
 
-print("Your band name could be " + city + " " + Pet)  [The program concatenates the strings "Your band name could be ", the value of city, a space, and the value of Pet. It then print                                                          the resulting string, which is the generated band name.]
+print("Your band name could be " + city + " " + Pet)  [The program creates a band name by joining the text "Your band name could be ", the city name, and the pet name, then prints it.]
 
                                                                   
 Step 5 The Final Code for Project 1:
