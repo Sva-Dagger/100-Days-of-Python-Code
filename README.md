@@ -1,7 +1,7 @@
 # 100-Days-of-Python-Code
 Day 1 to 100 Days of Python Coding
 
-Day 1 Project 1
+Day 1 Project 1 Band-Name-Generator
 
 Step 1 Print Welcome Message:
 
