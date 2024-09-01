@@ -21,6 +21,7 @@ print("Your band name could be " + city + " " + Pet)  [The program creates a ban
 
                                                                   
 Step 5 The Final Code for Project 1:
+
 print("Welcome to Band name Generator")
 city = input("Enter your city ")
 Pet = input("What's your pet name ")
