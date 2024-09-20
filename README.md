@@ -232,7 +232,7 @@ Day 7 Project - Hang Man
         print("you_lost")
         end_of_game = True
 
-Day 7 Project - Function with Input Arguments
+Day 8 Project - Function with Input Arguments
 
     def calculate_paint_area(height, width, coverage):
         area_to_paint = height * width
