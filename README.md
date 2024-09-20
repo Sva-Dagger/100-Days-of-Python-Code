@@ -58,7 +58,7 @@ Day 4 Project - Treasure Map
     map[number_index][letter_index] = "X"
     print(f"{line1}\n{line2}\n{line3}")
 
-Day 4 Project - Password generator (Hard)
+Day 5 Project - Password generator (Hard)
 
     #Password Generator Project
     import random
