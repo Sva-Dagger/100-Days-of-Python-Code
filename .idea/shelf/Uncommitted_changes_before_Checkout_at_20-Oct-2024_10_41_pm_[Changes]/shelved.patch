@@ -1,0 +1,663 @@
+Index: ATM_Machine_Project/UI.py
+===================================================================
+diff --git a/ATM_Machine_Project/UI.py b/PROJECT/ATM_MACHINE/UI.py
+rename from ATM_Machine_Project/UI.py
+rename to PROJECT/ATM_MACHINE/UI.py
+--- a/ATM_Machine_Project/UI.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/PROJECT/ATM_MACHINE/UI.py	(date 1729430244519)
+@@ -1,13 +1,13 @@
+-
+ from tkinter import *
+ THEME_COLOR ="#375362"
+ import datetime
+ import json
+ import smtplib
+ 
+-
+ class UI:
+     def __init__(self):
++        self.TIME_NOW = int
++        self.amount=int
+         self.balance = None
+         self.messagebox = None
+         self.Deposit_button = None
+@@ -19,8 +19,8 @@
+         self.DEPOSIT_PIN:int
+         self.TRANSACTION_PIN: int
+         self.action:str
+-        self.my_email = "hackersiva847@gmail.com"
+-        self.password = "ccnffohqpwivwijz"
++        self.my_email = "ENV_EMAIL"
++        self.password = "ENV_PASSWORD"
+         self.back_button = None
+         self.buttons = [
+             ("1", 0, 2), ("2", 1, 2), ("3", 2, 2),
+@@ -55,11 +55,10 @@
+         self.Insert_label = None
+         self.Welcome_label = None
+ 
+-
+     def WELCOME(self):
+         self.DESTROY_WIDGET()
+         self.window.configure(padx=350, pady=200, bg=THEME_COLOR)
+-        self.window.geometry("1600x1200")
++        self.window.geometry("1360x1200")
+         self.Welcome_label = Label(text="WELCOME TO OUR ATM MACHINE",
+                                    width=30, bg=THEME_COLOR, fg="white",
+                                    font=("Ariel", 20, "bold"))
+@@ -76,106 +75,10 @@
+         self.Card_button.grid(column=1, row=2, pady=20)
+         self.window.mainloop()
+ 
+-    def PIN(self,action):
+-        for widget in self.window.winfo_children():
+-            widget.destroy()
+-        self.CREATE_NUMBER_BUTTON()
+-        self.window.geometry("4000x4000")
+-        self.window.configure(padx=250, pady=150, bg=THEME_COLOR)
+-        self.pin_entry_label = Label(text="PLEASE ENTER YOUR PIN",
+-                                     bg=THEME_COLOR, fg="white",
+-                                     font=("Ariel", 20, "bold"))
+-        self.pin_entry_label.grid(column=4, row=1, pady=20)
+-
+-        # Create an Entry widget for the PIN
+-        self.pin_entry = Entry(width=13, show="*", font=("Ariel", 20))
+-        self.pin_entry.grid(column=4, row=2, pady=20)
+-
+-        # Create buttons for actions
+-        self.cancel_button = Button(text="CANCEL", width=10,
+-                                    fg="black", bg=THEME_COLOR,
+-                                    font=("Ariel", 28, "bold"))
+-        self.cancel_button.grid(column=5, row=2, padx=20, pady=20, columnspan=2)
+-
+-        self.clear_button = Button(text="CLEAR", width=10, fg="black", bg=THEME_COLOR, font=("Ariel", 28, "bold"),
+-                                   command=self.CLEAR_PIN)
+-        self.clear_button.grid(column=5, row=3, padx=20, pady=20, columnspan=2)
+-        self.ENTER_BUTTON()
+-        if action == "BALANCE":
+-            self.BALANCE_ENTER_BUTTON()
+-        elif action == "WITHDRAW":
+-            self.WITHDRAWAL_ENTER_BUTTON()
+-        elif action == "DEPOSIT":
+-            self.DEPOSIT_ENTER_BUTTON()
+-        elif action == "TRANS_HISTORY":
+-            self.TRANSACTION_ENTER_BUTTON()
+-
+     def PIN_ENTRY(self):
+         self.PIN(action=str)
+         self.ENTER_BUTTON()
+ 
+-    def ENTER_BUTTON(self):
+-        self.enter_button = Button(text="ENTER", width=10, fg="black", bg=THEME_COLOR, font=("Ariel", 28, "bold"),
+-                                       command=self.CHECK_PIN)
+-        self.enter_button.grid(column=5, row=4, padx=20, pady=20, columnspan=2)
+-
+-    def DEPOSIT_ENTER_BUTTON(self):
+-        self.enter_button.configure(command=self.DEPOSIT_CHECK_PIN)
+-
+-    def BALANCE_ENTER_BUTTON(self):
+-        self.enter_button.configure(command=self.BALANCE_CHECK_PIN)
+-
+-    def WITHDRAWAL_ENTER_BUTTON(self):
+-        self.enter_button.configure(command=self.WITHDRAWAL_CHECK_PIN)
+-
+-    def TRANSACTION_ENTER_BUTTON(self):
+-        self.enter_button.configure(command=self.TRANSACTION_CHECK_PIN)
+-
+-    def CHECK_PIN(self):
+-        pin = self.pin_entry.get()
+-        if pin == "1234":  # Example PIN check
+-            self.MENU_OPTION()
+-            return True
+-        self.CLEAR_PIN()
+-
+-    def BALANCE_CHECK_PIN(self):
+-        pin = self.pin_entry.get()
+-        if pin == "1234":  # Example PIN check
+-            self.SHOW_BALANCE()
+-            return True
+-        self.CLEAR_PIN()
+-
+-    def DEPOSIT_CHECK_PIN(self):
+-        pin = self.pin_entry.get()
+-        if pin == "1234":  # Example PIN check
+-            self.DEPOSIT()
+-            return True
+-        self.CLEAR_PIN()
+-
+-    def WITHDRAWAL_CHECK_PIN(self):
+-        pin = self.pin_entry.get()
+-        if pin == "1234":  # Example PIN check
+-            self.WITHDRAW()
+-            return True
+-        self.CLEAR_PIN()
+-
+-    def TRANSACTION_CHECK_PIN(self):
+-        pin = self.pin_entry.get()
+-        if pin == "1234":  # Example PIN check
+-            self.VIEW_TRANSACTION()
+-            return True
+-        self.CLEAR_PIN()
+-
+-    def CLEAR_PIN(self):
+-        self.pin_entry.delete(0, END)
+-
+-    def CREATE_NUMBER_BUTTON(self):
+-        for (text, col, row) in self.buttons:
+-            self.button = Button(text=text, fg="black",
+-                            bg=THEME_COLOR, font=("Ariel", 28, "bold"),
+-                            command=lambda t=text: self.pin_entry.insert(END, t))
+-            self.button.grid(column=col, row=row, padx=20, pady=20)
+-
+     def MENU_OPTION(self):
+         for widget in self.window.winfo_children():
+             widget.destroy()
+@@ -231,7 +134,8 @@
+                             command=lambda t=text: self.Withdrawal_entry.insert(END, t))
+             button.grid(column=col, row=row, padx=20, pady=20)
+ 
+-        self.pin_label = Label(text="ENTER AVAILABLE AMOUNT TO WITHDRAW\n$100\n$200\n$500", width=28, bg=THEME_COLOR,
++        self.pin_label = Label(text="ENTER AVAILABLE AMOUNT TO WITHDRAW\n$100\n$200\n$500",
++                               width=35, bg=THEME_COLOR,
+                                fg="white", font=("Ariel", 14, "bold"))
+         self.pin_label.grid(column=4, row=0, pady=20, padx=20)
+ 
+@@ -253,7 +157,7 @@
+         self.DESTROY_WIDGET()
+         self.window.configure(padx=200, pady=100, bg=THEME_COLOR)
+         self.window.geometry("4000x4000")
+-        self.title_label = Label(text="DEPOSIT YOUR AMOUNT", width=15,
++        self.title_label = Label(text="DEPOSIT YOUR AMOUNT", width=20,
+                                  bg=THEME_COLOR, fg="white",
+                                  font=("Arial", 20, "bold"))
+         self.title_label.grid(column=4, row=0, pady=10)
+@@ -263,31 +167,31 @@
+                                  font=("Arial", 20))
+         self.title_label.grid(column=3, row=1, pady=10)
+         self.deposit_amount_entry = Entry(width=10, font=("Arial", 30))
+-        self.deposit_amount_entry.grid(column=4, row=1, padx=20, pady=20)
++        self.deposit_amount_entry.grid(column=4, row=1, padx=10, pady=10)
+         for (text, col, row) in self.buttons:
+             button = Button(text=text, fg="black",
+                             bg=THEME_COLOR, font=("Ariel", 24, "bold"),
+                             command=lambda t=text: self.deposit_amount_entry.insert(END, t))
+-            button.grid(column=col, row=row, padx=20, pady=20)
++            button.grid(column=col, row=row, padx=10, pady=10)
+ 
+         self.Deposit_button = Button(text="DEPOSIT", width=10,
+                                      bg=THEME_COLOR,
+-                                     fg="black", font=("Ariel", 20), command=self.PROCESS_DEPOSIT)
+-        self.Deposit_button.grid(column=5, row=2, padx=20, pady=20)
++                                     fg="black", font=("Ariel", 20, "bold"), command=self.PROCESS_DEPOSIT)
++        self.Deposit_button.grid(column=5, row=2, padx=10, pady=10)
+ 
+-        self.clear_button = Button(text="CLEAR", width=10, fg="black", bg=THEME_COLOR, font=("Ariel", 20))
+-        self.clear_button.grid(column=5, row=3, padx=20, pady=20)
++        self.clear_button = Button(text="CLEAR", width=10, fg="black",
++                                   bg=THEME_COLOR, font=("Ariel", 20, "bold"))
++        self.clear_button.grid(column=5, row=3, padx=10, pady=10)
+ 
+         back_button = Button(text="BACK", width=10, bg=THEME_COLOR, fg="black",
+-                             font=("Ariel", 20), command=self.WELCOME)
+-        back_button.grid(column=5, row=4, pady=20, padx=20)
++                             font=("Ariel", 20, "bold"), command=self.WELCOME)
++        back_button.grid(column=5, row=4, pady=10, padx=10)
+ 
+     def VIEW_TRANSACTION(self):
+         for widget in self.window.winfo_children():
+             widget.destroy()
+         self.window.configure(padx=150, pady=50, bg=THEME_COLOR)
+         self.window.geometry("4000x4000")
+-        Time_Now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+         transaction_text = Text(height=30, width=50)
+         transaction_text.grid(padx=300, pady=10)
+ 
+@@ -333,10 +237,10 @@
+                     "amount": self.amount,
+                     "Balance": self.balance
+                 })
++                self.SAVE_BALANCE()
+                 self.TIME_NOW = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                 with open("transaction_History.txt", "a") as file:
+                     file.write(f"{self.TIME_NOW} | Withdraw amount {self.amount} | Your Balance {self.balance}\n")
+-                self.SAVE_BALANCE()
+                 with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
+                     connection.starttls()
+                     connection.login(user=self.my_email, password=self.password)
+@@ -386,7 +290,6 @@
+             self.messagebox.showwarning("Input required", "Please enter a valid deposit amount.")
+ 
+     def LOAD_BALANCE(self):
+-
+         try:
+             with open('balance.json', 'r') as file:
+                 data = json.load(file)
+@@ -420,4 +323,100 @@
+ 
+     def DESTROY_WIDGET(self):
+         for widget in self.window.winfo_children():
+-            widget.destroy()
+\ No newline at end of file
++            widget.destroy()
++
++    def DEPOSIT_ENTER_BUTTON(self):
++        self.enter_button.configure(command=self.DEPOSIT_CHECK_PIN)
++
++    def BALANCE_ENTER_BUTTON(self):
++        self.enter_button.configure(command=self.BALANCE_CHECK_PIN)
++
++    def WITHDRAWAL_ENTER_BUTTON(self):
++        self.enter_button.configure(command=self.WITHDRAWAL_CHECK_PIN)
++
++    def TRANSACTION_ENTER_BUTTON(self):
++        self.enter_button.configure(command=self.TRANSACTION_CHECK_PIN)
++
++    def CHECK_PIN(self):
++        pin = self.pin_entry.get()
++        if pin == "1234":  # Example PIN check
++            self.MENU_OPTION()
++            return True
++        self.CLEAR_PIN()
++
++    def BALANCE_CHECK_PIN(self):
++        pin = self.pin_entry.get()
++        if pin == "1234":  # Example PIN check
++            self.SHOW_BALANCE()
++            return True
++        self.CLEAR_PIN()
++
++    def DEPOSIT_CHECK_PIN(self):
++        pin = self.pin_entry.get()
++        if pin == "1234":  # Example PIN check
++            self.DEPOSIT()
++            return True
++        self.CLEAR_PIN()
++
++    def WITHDRAWAL_CHECK_PIN(self):
++        pin = self.pin_entry.get()
++        if pin == "1234":  # Example PIN check
++            self.WITHDRAW()
++            return True
++        self.CLEAR_PIN()
++
++    def TRANSACTION_CHECK_PIN(self):
++        pin = self.pin_entry.get()
++        if pin == "1234":  # Example PIN check
++            self.VIEW_TRANSACTION()
++            return True
++        self.CLEAR_PIN()
++
++    def PIN(self,action):
++        for widget in self.window.winfo_children():
++            widget.destroy()
++        self.CREATE_NUMBER_BUTTON()
++        self.window.geometry("4000x4000")
++        self.window.configure(padx=200, pady=150, bg=THEME_COLOR)
++        self.pin_entry_label = Label(text="PLEASE ENTER YOUR PIN",
++                                     bg=THEME_COLOR, fg="white",
++                                     font=("Ariel", 20, "bold"))
++        self.pin_entry_label.grid(column=4, row=1, pady=20)
++
++        # Create an Entry widget for the PIN
++        self.pin_entry = Entry(width=13, show="*", font=("Ariel", 20))
++        self.pin_entry.grid(column=4, row=2, pady=20)
++
++        # Create buttons for actions
++        self.cancel_button = Button(text="CANCEL", width=10,
++                                    fg="black", bg=THEME_COLOR,
++                                    font=("Ariel", 28, "bold"), command= self.WELCOME)
++        self.cancel_button.grid(column=5, row=2, padx=20, pady=20)
++
++        self.clear_button = Button(text="CLEAR", width=10, fg="black", bg=THEME_COLOR, font=("Ariel", 28, "bold"),
++                                   command=self.CLEAR_PIN)
++        self.clear_button.grid(column=5, row=3, padx=20, pady=20)
++        self.ENTER_BUTTON()
++        if action == "BALANCE":
++            self.BALANCE_ENTER_BUTTON()
++        elif action == "WITHDRAW":
++            self.WITHDRAWAL_ENTER_BUTTON()
++        elif action == "DEPOSIT":
++            self.DEPOSIT_ENTER_BUTTON()
++        elif action == "TRANS_HISTORY":
++            self.TRANSACTION_ENTER_BUTTON()
++
++    def ENTER_BUTTON(self):
++        self.enter_button = Button(text="ENTER", width=10, fg="black", bg=THEME_COLOR, font=("Ariel", 28, "bold"),
++                                       command=self.CHECK_PIN)
++        self.enter_button.grid(column=5, row=4, padx=20, pady=20)
++
++    def CLEAR_PIN(self):
++        self.pin_entry.delete(0, END)
++
++    def CREATE_NUMBER_BUTTON(self):
++        for (text, col, row) in self.buttons:
++            self.button = Button(text=text, fg="black",
++                            bg=THEME_COLOR, font=("Ariel", 28, "bold"),
++                            command=lambda t=text: self.pin_entry.insert(END, t))
++            self.button.grid(column=col, row=row, padx=20, pady=20)
+\ No newline at end of file
+Index: ATM_Machine_Project/Balance.py
+===================================================================
+diff --git a/ATM_Machine_Project/Balance.py b/BUS TICKET.py
+rename from ATM_Machine_Project/Balance.py
+rename to BUS TICKET.py
+--- a/ATM_Machine_Project/Balance.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/BUS TICKET.py	(date 1729444028603)
+@@ -1,0 +1,50 @@
++import json
++import datetime
++
++class TICKET_BOOKING:
++    def __init__(self):
++        self.booked_Seat = []  # Initialize an empty list to store booked seats
++        self.Seat = input("Enter your seat no: ")
++        self.Name = input("Enter your Name: ")
++        self.load_booked_seats()
++        self.book_seat()
++
++    def load_booked_seats(self):
++        """ Load previously booked seats from the JSON file. """
++        try:
++            with open('Seat_Booked.json', 'r') as file:
++                data = json.load(file)
++                self.booked_Seat = data.get('booked Seat', [])
++        except (FileNotFoundError, ValueError):
++            self.booked_Seat = []
++
++    def book_seat(self):
++        """ Check if the seat is available and book it if not already booked. """
++        available_seat = ["A1", "A2", "A3", "B1", "B2", "B3"]
++
++        if self.Seat in self.booked_Seat:
++            print("Seat already booked")
++        elif self.Seat in available_seat:
++            print(f"Booking seat {self.Seat} for {self.Name}")
++            self.booked_Seat.append(self.Seat)
++            self.booked_Seat.append({
++                "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
++                "Status": "booked",
++                "Seat": self.Seat,
++                "Name": self.Name,
++            })
++            self.Save_Booking()
++        else:
++            print("Seat Not Available")
++
++    def Save_Booking(self):
++        """ Save the booking by appending the new seat to the list. """
++
++        with open('Seat_Booked.json', 'w') as file:
++            json.dump({
++                "booked Seat": self.booked_Seat,
++            }, file, indent=4)
++
++
++# Run the ticket booking system
++TICKET_BOOKING()
+Index: WITHDRAW.py
+===================================================================
+diff --git a/WITHDRAW.py b/Day 47/main.py
+rename from WITHDRAW.py
+rename to Day 47/main.py
+--- a/WITHDRAW.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/Day 47/main.py	(date 1729420837255)
+@@ -1,0 +1,18 @@
++import requests
++from bs4 import BeautifulSoup
++import smtplib
++my_email = "hackersiva847@gmail.com"
++password = "ytkthryegevxkgis"
++response = requests.get("https://www.amazon.in/Logitech-K120-Wired-Keyboard-Black/dp/B006FEPRO4/ref=sr_1_5?_encoding=UTF8&content-id=amzn1.sym.0646d9e3-4048-424a-92a5-0e56e668b46c&dib=eyJ2IjoiMSJ9.FxG2iFdMGtFGHRuKLcCmmTWNRFw2SBL1hg57foizD6_jjWPuJ6Al3k63YpJA8zZOclWvNMdv0k-ajP_zKP7U1mKmj9N3lo374ErwzuUoNBKd_QT_g0NbQ3FYfDalsvLFc-H2E1vrTSwt63M011cR7YBgj1TjPJZgNI4rGeOhEN12XG1HFqLArF9V-bMXuyz-ZaRL0EqLAOlrx9WhHP3M-HlFEneyJed48yHrq3btwywEL77Aanx2wN5RUGk23uDBVCVcyGzovub5vnFpCSyhAYZX7KsRkd6nnUSPTwwIn0s.d3tV6DS-Fx4TH6OmMUEEgy6SVPL_y1M17nBOLS70--4&dib_tag=se&pd_rd_r=d3d69aa1-ad0c-41ca-a37f-24e2ba25beb9&pd_rd_w=Uxmmt&pd_rd_wg=g1Vqm&pf_rd_p=0646d9e3-4048-424a-92a5-0e56e668b46c&pf_rd_r=EB8R6TMZ88AXC7F8XS6R&qid=1729416451&refinements=p_n_deal_type%3A26921224031&s=computers&sr=1-5")
++Amazon = response.text
++soup = BeautifulSoup(Amazon,"html.parser")
++find_price = soup.find(name="span", class_="a-price-whole")
++price = int(find_price.text.split(".")[0])
++print(price)
++
++if price < 200:
++    with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
++        connection.starttls()
++        connection.login(user=my_email, password=password)
++        connection.sendmail(from_addr=my_email, to_addrs="sivam4266@gmail.com", msg=f"Product price is dropped to {price} RS")
++        connection.close()
+\ No newline at end of file
+Index: Day 33/Sun-rise/Sunset.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import requests\r\nfrom datetime import datetime\r\nimport smtplib\r\nimport time\r\nmy_longitude = 76.955833\r\nmy_latitude = 11.016844\r\nmy_email = \"hackersiva847@gmail.com\"\r\npassword = \"ccnffohqpwivwijz\"\r\nresponse = requests.get(url=\"http://api.open-notify.org/iss-now.json\")\r\nresponse.raise_for_status()\r\n\r\n\r\ndef is_iss_overhead():\r\n    data = response.json()\r\n    longitude = float(data[\"iss_position\"][\"longitude\"])\r\n    latitude = float(data[\"iss_position\"][\"latitude\"])\r\n    if my_latitude-5 <= latitude <= my_latitude+5 and my_longitude-5 <= longitude <= my_longitude+5:\r\n        return True\r\n\r\ndef is_night():\r\n    parameter = {\r\n        \"lat\" : my_latitude,\r\n        \"lng\" : my_longitude,\r\n        \"formatted\": 0\r\n    }\r\n    response = requests.get(\"https://api.sunrise-sunset.org/json\", params=parameter)\r\n    response.raise_for_status()\r\n    data= response.json()\r\n    sunrise = data[\"results\"][\"sunrise\"]\r\n    sunset = data[\"results\"][\"sunset\"]\r\n    sunrise_DT = sunrise.split(\"T\")[1]\r\n    sunrise_HR = int(sunrise_DT.split(\":\")[0])\r\n    sunset_DT = sunset.split(\"T\")[1]\r\n    sunset_HR = int(sunset_DT.split(\":\")[0])\r\n\r\n    time_now = datetime.now().hour\r\n    if time_now >= sunset_HR or time_now <= sunrise_HR:\r\n        return True\r\nwhile True:\r\n    if is_iss_overhead() and is_night():\r\n        with smtplib.SMTP(\"smtp.gmail.com\", port=587) as connection:\r\n            connection.starttls()\r\n            connection.login(user=my_email, password=password)\r\n            connection.sendmail(\r\n                from_addr=my_email,\r\n                to_addrs=\"sivam4266@gmail.com\",\r\n                msg=\"subject:Look up ☝\uFE0F\\n\\nThe ISS is above you in the sky.\"\r\n            )
+===================================================================
+diff --git a/Day 33/Sun-rise/Sunset.py b/Day 33/Sun-rise/Sunset.py
+--- a/Day 33/Sun-rise/Sunset.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/Day 33/Sun-rise/Sunset.py	(date 1728503202570)
+@@ -1,7 +1,6 @@
+ import requests
+ from datetime import datetime
+ import smtplib
+-import time
+ my_longitude = 76.955833
+ my_latitude = 11.016844
+ my_email = "hackersiva847@gmail.com"
+Index: Day 34/data.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from xmlrpc.client import boolean\r\nimport requests\r\nimport pandas\r\n\r\nparameter = {\r\n        \"amount\" : 10,\r\n        \"type\" : \"boolean\",\r\n        \"category\" : 18\r\n    }\r\nresponse = requests.get(\"https://opentdb.com/api.php\", params=parameter)\r\nresponse.raise_for_status()\r\ndata = response.json()\r\nquestion_data = data[\"results\"]
+===================================================================
+diff --git a/Day 34/data.py b/Day 34/data.py
+--- a/Day 34/data.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/Day 34/data.py	(date 1728458111700)
+@@ -1,6 +1,4 @@
+-from xmlrpc.client import boolean
+ import requests
+-import pandas
+ 
+ parameter = {
+         "amount" : 10,
+Index: Day 32/birthdays.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>name,email,year,month,day\r\nMy_mail_1,sivam4266@gmail.com,2000,10,02\r\nMy_mail_2,siva.robomiracle@gmail.com,2000,10,02
+===================================================================
+diff --git a/Day 32/birthdays.csv b/Day 32/birthdays.csv
+--- a/Day 32/birthdays.csv	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/Day 32/birthdays.csv	(date 1729418622724)
+@@ -1,3 +1,3 @@
+ name,email,year,month,day
+-My_mail_1,sivam4266@gmail.com,2000,10,02
++My_mail_1,sivam4266@gmail.com,2000,10,20
+ My_mail_2,siva.robomiracle@gmail.com,2000,10,02
+\ No newline at end of file
+Index: Day 32/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import smtplib\r\nimport datetime as dt\r\nimport random\r\n\r\nfrom dateutil.rrule import weekday\r\n\r\nmy_email = \"hackersiva847@gmail.com\"\r\npassword = \"ccnffohqpwivwijz\"\r\nNow = dt.datetime.now()\r\nyear = Now.year\r\nmonth = Now.month\r\nday_of_week = Now.weekday()\r\n\r\nif day_of_week == 2:\r\n    with open(\"quotes.txt\") as quote_file:\r\n        all_quotes = quote_file.readlines()\r\n        quote = random.choice(all_quotes)\r\n        print(quote)\r\n        with smtplib.SMTP(\"smtp.gmail.com\", port=587) as connection:\r\n            connection.starttls()\r\n            connection.login(user=my_email, password=password)\r\n            connection.sendmail(from_addr=my_email,\r\n                                to_addrs=\"sivam4266@gmail.com\",\r\n                                msg=f\"subject:Your_today_quotes\\n{quote}\"\r\n                                )\r\n##################### Extra Hard Starting Project ######################\r\n\r\n# 1. Update the birthdays.csv\r\n\r\n# 2. Check if today matches a birthday in the birthdays.csv\r\n\r\n# 3. If step 2 is true, pick a random letter from letter templates and replace the [NAME] with the person's actual name from birthdays.csv\r\n\r\n# 4. Send the letter generated in step 3 to that person's email address.\r\n\r\n\r\n
+===================================================================
+diff --git a/Day 32/main.py b/Day 32/main.py
+--- a/Day 32/main.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/Day 32/main.py	(date 1729419046613)
+@@ -2,16 +2,14 @@
+ import datetime as dt
+ import random
+ 
+-from dateutil.rrule import weekday
+-
+ my_email = "hackersiva847@gmail.com"
+ password = "ccnffohqpwivwijz"
+ Now = dt.datetime.now()
+ year = Now.year
+ month = Now.month
+ day_of_week = Now.weekday()
+-
+-if day_of_week == 2:
++print(day_of_week)
++if day_of_week == 6:
+     with open("quotes.txt") as quote_file:
+         all_quotes = quote_file.readlines()
+         quote = random.choice(all_quotes)
+Index: ATM_Machine_Project/MAIN.py
+===================================================================
+diff --git a/ATM_Machine_Project/MAIN.py b/PROJECT/ATM_MACHINE/MAIN.py
+rename from ATM_Machine_Project/MAIN.py
+rename to PROJECT/ATM_MACHINE/MAIN.py
+--- a/ATM_Machine_Project/MAIN.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/PROJECT/ATM_MACHINE/MAIN.py	(date 1728740757657)
+@@ -1,6 +1,6 @@
+ from UI import UI
+ 
+-THEME_COLOR ="#375362"
++
+ denominations = [100, 200, 500]
+ UI = UI()
+ 
+Index: Coffee_Machine_Project.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from tkinter import *\r\nfrom tkinter import messagebox\r\n\r\n\r\nclass CoffeeMachine:\r\n    def __init__(self):\r\n        self.window = Tk()\r\n        self.window.title(\"Coffee Maker\")\r\n\r\n        self.MENU = {\r\n            \"espresso\": {\r\n                \"ingredients\": {\r\n                    \"water\": 50,\r\n                    \"coffee\": 18,\r\n                },\r\n                \"cost\": 1.5,\r\n            },\r\n            \"latte\": {\r\n                \"ingredients\": {\r\n                    \"water\": 200,\r\n                    \"milk\": 150,\r\n                    \"coffee\": 24,\r\n                },\r\n                \"cost\": 2.5,\r\n            },\r\n            \"cappuccino\": {\r\n                \"ingredients\": {\r\n                    \"water\": 250,\r\n                    \"milk\": 100,\r\n                    \"coffee\": 24,\r\n                },\r\n                \"cost\": 3.0,\r\n            }\r\n        }\r\n\r\n        self.profit = 0\r\n        self.resources = {\r\n            \"water\": 300,\r\n            \"milk\": 200,\r\n            \"coffee\": 100,\r\n        }\r\n\r\n        self.create_widgets()\r\n        self.window.mainloop()\r\n\r\n    def create_widgets(self):\r\n        Label(self.window, text=\"Menu\").grid(row=0, column=0)\r\n\r\n        for i, (drink, details) in enumerate(self.MENU.items()):\r\n            price = details[\"cost\"]\r\n            Label(self.window, text=f\"{drink}: ${price}\").grid(row=i + 1, column=0)\r\n\r\n        Label(self.window, text=\"Order\").grid(row=0, column=1)\r\n        self.order_var = StringVar(value=list(self.MENU.keys())[0])\r\n        OptionMenu(self.window, self.order_var, *self.MENU.keys()).grid(row=1, column=1)\r\n\r\n        Label(self.window, text=\"Coins\").grid(row=2, column=1)\r\n        self.coin_entry = Entry(self.window)\r\n        self.coin_entry.grid(row=3, column=1)\r\n\r\n        Button(self.window, text=\"Order\", command=self.order).grid(row=4, column=1)\r\n        Button(self.window, text=\"Report\", command=self.report).grid(row=5, column=1)\r\n\r\n    def order(self):\r\n        drink = self.order_var.get()\r\n        try:\r\n            coins = float(self.coin_entry.get())\r\n            price = self.MENU[drink][\"cost\"]\r\n\r\n            if coins < price:\r\n                messagebox.showerror(\"Error\", \"Insufficient coins\")\r\n                return\r\n\r\n            ingredients = self.MENU[drink][\"ingredients\"]\r\n\r\n            if self.check_resources(ingredients):\r\n                self.reduce_resources(ingredients)  # Deduct resources\r\n                change = round(coins - price, 2)\r\n                self.profit += price\r\n                messagebox.showinfo(\"Success\", f\"Here is your {drink}. Change: ${change}\")\r\n            else:\r\n                messagebox.showerror(\"Error\", \"Not enough resources\")\r\n        except:\r\n            messagebox.showerror(\"Error\", \"Enter a value into the box\")\r\n\r\n    def check_resources(self, ingredients):\r\n        for item, amount in ingredients.items():\r\n            if self.resources[item] < amount:\r\n                return False\r\n        return True\r\n\r\n    def reduce_resources(self, ingredients):\r\n        for item, amount in ingredients.items():\r\n            self.resources[item] -= amount  # Deduct the required amount\r\n\r\n    def report(self):\r\n        messagebox.showinfo(\r\n            \"Report\",\r\n            f\"Water: {self.resources['water']}ml\\n\"\r\n            f\"Milk: {self.resources['milk']}ml\\n\"\r\n            f\"Coffee: {self.resources['coffee']}g\\n\"\r\n            f\"Profit: ${self.profit}\"\r\n        )\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    CoffeeMachine()\r\n
+===================================================================
+diff --git a/Coffee_Machine_Project.py b/Coffee_Machine_Project.py
+--- a/Coffee_Machine_Project.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/Coffee_Machine_Project.py	(date 1728741663230)
+@@ -1,11 +1,14 @@
+ from tkinter import *
+ from tkinter import messagebox
+ 
++THEME_COLOR ="#375362"
++
+ 
+ class CoffeeMachine:
+     def __init__(self):
+         self.window = Tk()
+         self.window.title("Coffee Maker")
++        self.window.configure(padx=300, pady=300, bg=THEME_COLOR)
+ 
+         self.MENU = {
+             "espresso": {
+@@ -44,22 +47,22 @@
+         self.window.mainloop()
+ 
+     def create_widgets(self):
+-        Label(self.window, text="Menu").grid(row=0, column=0)
++        Label(self.window, text="Menu", bg=THEME_COLOR, font=("Ariel", 18)).grid(row=0, column=0, padx=10, pady=10)
+ 
+         for i, (drink, details) in enumerate(self.MENU.items()):
+             price = details["cost"]
+-            Label(self.window, text=f"{drink}: ${price}").grid(row=i + 1, column=0)
++            Label(self.window, text=f"{drink}: ${price}", bg=THEME_COLOR, font=("Ariel", 14)).grid(row=i + 1, column=0, padx=10, pady=10)
+ 
+-        Label(self.window, text="Order").grid(row=0, column=1)
++        Label(self.window, text="Order", bg=THEME_COLOR, font=("Ariel", 18)).grid(row=0, column=1, padx=10, pady=10)
+         self.order_var = StringVar(value=list(self.MENU.keys())[0])
+-        OptionMenu(self.window, self.order_var, *self.MENU.keys()).grid(row=1, column=1)
++        OptionMenu(self.window, self.order_var, *self.MENU.keys()).grid(row=1, column=1, padx=10, pady=10)
+ 
+-        Label(self.window, text="Coins").grid(row=2, column=1)
+-        self.coin_entry = Entry(self.window)
+-        self.coin_entry.grid(row=3, column=1)
++        Label(self.window, text="Coins", bg=THEME_COLOR, font=("Ariel", 18)).grid(row=2, column=1, padx=10, pady=10)
++        self.coin_entry = Entry(self.window, bg=THEME_COLOR, font=("Ariel", 18))
++        self.coin_entry.grid(row=3, column=1, padx=10, pady=10)
+ 
+-        Button(self.window, text="Order", command=self.order).grid(row=4, column=1)
+-        Button(self.window, text="Report", command=self.report).grid(row=5, column=1)
++        Button(self.window, text="Order", bg=THEME_COLOR, font=("Ariel", 14), command=self.order).grid(row=4, column=1, padx=10, pady=10)
++        Button(self.window, text="Report", bg=THEME_COLOR, font=("Ariel", 14), command=self.report).grid(row=5, column=1, padx=10, pady=10)
+ 
+     def order(self):
+         drink = self.order_var.get()
+Index: ATM_Machine_Project/PIN_ENTRY.py
+===================================================================
+diff --git a/ATM_Machine_Project/PIN_ENTRY.py b/Day 41/Training-2/index.html
+rename from ATM_Machine_Project/PIN_ENTRY.py
+rename to Day 41/Training-2/index.html
+--- a/ATM_Machine_Project/PIN_ENTRY.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/Day 41/Training-2/index.html	(date 1728574041218)
+@@ -1,0 +1,25 @@
++<p>First paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
++aliqua. Arcu cursus vitae congue mauris. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Nisi est sit amet
++facilisis magna. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Quis ipsum suspendisse ultrices
++gravida dictum fusce ut. Euismod elementum nisi quis eleifend. Habitant morbi tristique senectus et. Amet nisl suscipit
++adipiscing bibendum est ultricies integer. Viverra orci sagittis eu volutpat odio facilisis mauris sit. Nisi quis
++eleifend quam adipiscing. Neque convallis a cras semper auctor neque vitae. Magna fermentum iaculis eu non. Vivamus arcu
++felis bibendum ut tristique et. Justo nec ultrices dui sapien eget mi. In vitae turpis massa sed elementum tempus. Eu
++facilisis sed odio morbi quis commodo. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae.</p>
++
++<p>Second paragraph. Suscipit adipiscing bibendum est ultricies. Tortor aliquam nulla facilisi cras fermentum. Eget aliquet nibh praesent
++tristique magna. In hac habitasse platea dictumst vestibulum. Ornare quam viverra orci sagittis eu. Sit amet est
++placerat in. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Turpis in eu mi bibendum neque egestas
++congue. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Ultrices sagittis orci a scelerisque purus
++semper eget duis at. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Condimentum
++lacinia quis vel eros donec ac odio.</p>
++
++<p>Third paragraph. Nisl purus in mollis nunc sed id semper risus. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Ridiculus mus
++mauris vitae ultricies leo integer malesuada nunc. In tellus integer feugiat scelerisque. Lectus mauris ultrices eros in
++cursus turpis massa. Sollicitudin ac orci phasellus egestas. Massa massa ultricies mi quis hendrerit dolor. Quam
++elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Iaculis nunc sed augue lacus viverra. Id ornare
++arcu odio ut sem nulla pharetra. Amet luctus venenatis lectus magna fringilla urna porttitor. Eu nisl nunc mi ipsum
++faucibus vitae aliquet nec ullamcorper. Nunc mattis enim ut tellus elementum sagittis. Mauris augue neque gravida in
++fermentum et sollicitudin. Pellentesque habitant morbi tristique senectus. Tristique senectus et netus et. Turpis
++egestas sed tempus urna et pharetra pharetra. Feugiat vivamus at augue eget arcu dictum varius duis at. Lacus sed
++viverra tellus in hac habitasse platea dictumst vestibulum. Nisl condimentum id venenatis a condimentum vitae sapien.</p>
+\ No newline at end of file
+Index: ATM_Machine_Project/VIEW_TRANSACTION.py
+===================================================================
+diff --git a/ATM_Machine_Project/VIEW_TRANSACTION.py b/Day 41/Training-2/solution.html
+rename from ATM_Machine_Project/VIEW_TRANSACTION.py
+rename to Day 41/Training-2/solution.html
+--- a/ATM_Machine_Project/VIEW_TRANSACTION.py	(revision c4dc0d1d4bed7e622102152daa9b32f4b6e5626b)
++++ b/Day 41/Training-2/solution.html	(date 1674541992000)
+@@ -1,0 +1,52 @@
++<!-- Scroll down for the solution -->
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++<p>First paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
++aliqua. Arcu cursus vitae congue mauris. In nisl nisi scelerisque eu ultrices vitae auctor eu augue. Nisi est sit amet
++facilisis magna. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Quis ipsum suspendisse ultrices
++gravida dictum fusce ut. Euismod elementum nisi quis eleifend. Habitant morbi tristique senectus et. Amet nisl suscipit
++adipiscing bibendum est ultricies integer. Viverra orci sagittis eu volutpat odio facilisis mauris sit. Nisi quis
++eleifend quam adipiscing. Neque convallis a cras semper auctor neque vitae. Magna fermentum iaculis eu non. Vivamus arcu
++felis bibendum ut tristique et. Justo nec ultrices dui sapien eget mi. In vitae turpis massa sed elementum tempus. Eu
++facilisis sed odio morbi quis commodo. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae.</p>
++
++<p>Second paragraph. Suscipit adipiscing bibendum est ultricies. Tortor aliquam nulla facilisi cras fermentum. Eget aliquet nibh praesent
++tristique magna. In hac habitasse platea dictumst vestibulum. Ornare quam viverra orci sagittis eu. Sit amet est
++placerat in. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Turpis in eu mi bibendum neque egestas
++congue. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Ultrices sagittis orci a scelerisque purus
++semper eget duis at. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Condimentum
++lacinia quis vel eros donec ac odio.</p>
++
++<p>Third paragraph. Nisl purus in mollis nunc sed id semper risus. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Ridiculus mus
++mauris vitae ultricies leo integer malesuada nunc. In tellus integer feugiat scelerisque. Lectus mauris ultrices eros in
++cursus turpis massa. Sollicitudin ac orci phasellus egestas. Massa massa ultricies mi quis hendrerit dolor. Quam
++elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Iaculis nunc sed augue lacus viverra. Id ornare
++arcu odio ut sem nulla pharetra. Amet luctus venenatis lectus magna fringilla urna porttitor. Eu nisl nunc mi ipsum
++faucibus vitae aliquet nec ullamcorper. Nunc mattis enim ut tellus elementum sagittis. Mauris augue neque gravida in
++fermentum et sollicitudin. Pellentesque habitant morbi tristique senectus. Tristique senectus et netus et. Turpis
++egestas sed tempus urna et pharetra pharetra. Feugiat vivamus at augue eget arcu dictum varius duis at. Lacus sed
++viverra tellus in hac habitasse platea dictumst vestibulum. Nisl condimentum id venenatis a condimentum vitae sapien.</p>
+\ No newline at end of file
+diff --git a/ATM_Machine_Project/DEPOSIT.py b/Day 41/Training-1/HTML.py
+rename from ATM_Machine_Project/DEPOSIT.py
+rename to Day 41/Training-1/HTML.py

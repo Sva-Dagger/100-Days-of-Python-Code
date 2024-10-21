@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/Day 20/Day 20 Animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 20/Food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 20/New_score.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 20/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 20/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 20/snake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 21/Day 21 Slicing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 21/New_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 21/art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 21/ball.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 21/paddle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 23/Race_Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 23/car_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 23/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 23/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/ATM_Machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20/High_score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/Balance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/DEPOSIT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/Display_Balance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/Key_button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/MAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/MAIN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/MENU_OPTION.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/PIN_ENTRY.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/UI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/VIEW_TRANSACTION.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/Welcome" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/Welcome" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/card_insert.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/card_insert.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/New.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Project" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sva-Dagger&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sva-Dagger/100-Days-of-Python-Code.git&quot;,
+    &quot;accountId&quot;: &quot;e58d6c2d-f525-4261-a82b-92a77905e482&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Day 25/Working with Pandas.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2mMr5xL8zhDVmExx7sA8r9GJCaN" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python tests.Doctests in socket.executor&quot;: &quot;Run&quot;,
+    &quot;Python.50_States_of_America.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ATM_Machine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ATM_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BUS TICKET.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Balance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CSV Data in Python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Coffee_Machine_Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DEPOSIT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 02 Project - Tip Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 03 Treasure Island.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 04 Banker Roulette.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 04 Random Module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 04 Rock Paper Scissor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 04 index error and Nsted Lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 05 Even_Number_Count.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 05 Password Generator(Easy_Level).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 05 Password Generator(Hard_Level).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 07 Challenge-1 Hangman with Lives .executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 07 Challenge-1 Replace letters with blanks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 08 Caesar cypher-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 08 Func with Input Argument.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 17 OOP with Coffee Machine project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 18 Make_a_Paintings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 20 Animal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 20 Snake_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 26 tkinder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 28 Canvas widgets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Form filling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.INVENTORY_PROJECT (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.INVENTORY_PROJECT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Interaction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Key_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MAIN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MENU_OPTION.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mile_to_kilometer_Converter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.New.executor&quot;: &quot;Run&quot;,
+    &quot;Python.New_File.executor&quot;: &quot;Run&quot;,
+    &quot;Python.New_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PIN_ENTRY.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sunset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TASK1 ATM_Machine_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VIEW_TRANSACTION.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WITHDRAW.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Working with Pandas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu_coffee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.show_pin_entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day43\HTML WEBPAGE(Normal)" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 34" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\PROJECT" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 23" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 21" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 20" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="" />
+      <created>1726897113584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726897113584</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1726899012456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726899012456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update">
+      <option name="closed" value="true" />
+      <created>1726901285253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726901285253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update">
+      <option name="closed" value="true" />
+      <created>1726901298460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726901298460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update">
+      <option name="closed" value="true" />
+      <created>1726906821228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726906821228</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update">
+      <option name="closed" value="true" />
+      <created>1728406814258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728406814258</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update">
+      <option name="closed" value="true" />
+      <created>1729444353374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729444353374</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update">
+      <option name="closed" value="true" />
+      <created>1729445915352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729445915352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+</project>
