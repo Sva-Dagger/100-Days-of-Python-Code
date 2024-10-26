@@ -1,6 +1,6 @@
 import requests
 
-SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/*************************/flightDeals/prices/"
+SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/cd32841636e1ea32089e3d6039c07149/flightTicketPrice/sheet1"
 
 
 class DataManager:
@@ -18,7 +18,7 @@ class DataManager:
         for city in self.destination_data:
             new_data = {
                 "price": {
-                    "iataCode": city["iataCode"]
+                    "iataCode": city["IXM"]
                 }
             }
             response = requests.put(

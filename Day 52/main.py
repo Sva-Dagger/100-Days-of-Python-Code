@@ -6,18 +6,19 @@ import os
 from dotenv import load_dotenv
 import time
 
-CHROME_DRIVER_PATH = "C:\Development\chromedriver.exe"
+Edge_options = webdriver.EdgeOptions()
+Edge_options.add_experimental_option("detach", True)
 SIMILAR_ACCOUNT = "ufc"
 
-load_dotenv(".env")
-USERNAME = os.getenv("USERNAME")
+load_dotenv("MY_CREDENTIALS.env")
+USERNAME = os.getenv("E-MAIL")
 PASSWORD = os.getenv("PASSWORD")
 
 
 class InstaFollowerBot:
 
-    def __init__(self, path):
-        self.driver = webdriver.Chrome(executable_path=path)
+    def __init__(self):
+        self.driver = webdriver.Edge(options=Edge_options)
 
     def login(self):
         self.driver.get("https://www.instagram.com/accounts/login/")
@@ -57,7 +58,7 @@ class InstaFollowerBot:
                 cancel_button.click()
 
 
-bot = InstaFollowerBot(CHROME_DRIVER_PATH)
+bot = InstaFollowerBot()
 bot.login()
-bot.find_followers()
-bot.follow()
+"""bot.find_followers()
+bot.follow()"""

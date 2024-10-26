@@ -6,18 +6,21 @@ import os
 from time import sleep
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv("MY_CREDENTIALS.env")
 MY_EMAIL = os.getenv("MY_EMAIL")
 MY_PASSWORD = os.getenv("MY_PASSWORD")
 
-chrome_driver_path = ("C:\Development\chromedriver.exe")
-driver = webdriver.Chrome(executable_path=chrome_driver_path)
+Edge_options =webdriver.EdgeOptions()
+Edge_options.add_experimental_option("detach", True)
+
+driver = webdriver.Edge(options=Edge_options)
 
 driver.get("http://www.tinder.com")
-
-sleep(2)
-login_button = driver.find_element(By.XPATH, value= '//*[@id="t-2073920312"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/a')
+sleep(5)
+login_button = driver.find_element(By.XPATH, value= '//*[@id="t-342688478"]/div/div[1]/div/div/div/main/div/div[2]/div/div[3]/div/div/button[2]')
 login_button.click()
+"""
+
 
 sleep(2)
 fb_login = driver.find_element(By.XPATH, value='//*[@id="t492665908"]/div/div/div[1]/div/div[3]/span/div[2]/button/span[2]')
@@ -58,4 +61,4 @@ for n in range(100):
         except NoSuchElementException:
             sleep(2)
 
-driver.quit()
+driver.quit()"""

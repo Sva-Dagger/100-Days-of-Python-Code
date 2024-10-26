@@ -5,35 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Day 20/Day 20 Animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 20/Food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 20/New_score.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 20/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 20/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 20/snake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21/Day 21 Slicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21/New_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21/art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21/ball.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 21/paddle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 23/Race_Game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 23/car_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 23/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 23/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/ATM_Machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 20/High_score.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/Balance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/DEPOSIT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/Display_Balance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/Key_button.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/MAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/MAIN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/MENU_OPTION.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/PIN_ENTRY.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/UI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/VIEW_TRANSACTION.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/Welcome" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/Welcome" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATM_Machine_Project/card_insert.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/card_insert.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/New.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 37/Create user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 49/ENV_FILE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 53/Function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 54/HTML_DESIGN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 54/user_creation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 56/SIVA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 01/Day 01 Band_Name_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 01/BAND_NAME_GENERATOR/Day 01 Band_Name_Generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 37/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 37/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 39/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 39/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 49/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 49/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 50/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 50/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 51/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 51/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 52/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 52/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 54/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 54/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 54/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 54/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 55/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 55/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/js/PIE.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/base/_page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/components/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/components/_icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/ie8.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/ie9.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/layout/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/libs/_skel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/images/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/static/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 56/templates/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +74,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -115,6 +141,7 @@
     &quot;Python.Balance.executor&quot;: &quot;Run&quot;,
     &quot;Python.CSV Data in Python.executor&quot;: &quot;Run&quot;,
     &quot;Python.Coffee_Machine_Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Create user.executor&quot;: &quot;Run&quot;,
     &quot;Python.DEPOSIT.executor&quot;: &quot;Run&quot;,
     &quot;Python.Data_dict.executor&quot;: &quot;Run&quot;,
     &quot;Python.Day 02 Project - Tip Calculator.executor&quot;: &quot;Run&quot;,
@@ -136,13 +163,17 @@
     &quot;Python.Day 20 Snake_Game.executor&quot;: &quot;Run&quot;,
     &quot;Python.Day 26 tkinder.executor&quot;: &quot;Run&quot;,
     &quot;Python.Day 28 Canvas widgets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ENV_FILE.executor&quot;: &quot;Run&quot;,
     &quot;Python.Form filling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IMG resize.executor&quot;: &quot;Run&quot;,
     &quot;Python.INVENTORY_PROJECT (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.INVENTORY_PROJECT.executor&quot;: &quot;Run&quot;,
     &quot;Python.Interaction.executor&quot;: &quot;Run&quot;,
     &quot;Python.Key_button.executor&quot;: &quot;Run&quot;,
     &quot;Python.MAIN.executor&quot;: &quot;Run&quot;,
     &quot;Python.MENU_OPTION.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MY_CREDENTIALS.executor&quot;: &quot;Run&quot;,
     &quot;Python.Main.executor&quot;: &quot;Run&quot;,
     &quot;Python.Mile_to_kilometer_Converter.executor&quot;: &quot;Run&quot;,
     &quot;Python.New.executor&quot;: &quot;Run&quot;,
@@ -157,17 +188,21 @@
     &quot;Python.WITHDRAW.executor&quot;: &quot;Run&quot;,
     &quot;Python.Working with Pandas.executor&quot;: &quot;Run&quot;,
     &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.main2.executor&quot;: &quot;Run&quot;,
     &quot;Python.menu_coffee.executor&quot;: &quot;Run&quot;,
     &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
     &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
     &quot;Python.show_pin_entry.executor&quot;: &quot;Run&quot;,
     &quot;Python.ui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.user_creation.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Day 51&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
@@ -181,17 +216,90 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 51" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 50" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day43\HTML WEBPAGE(Normal)" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 34" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\PROJECT" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 23" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 21" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 20" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 57\Training-1\static" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 57\Training-1\templates" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 56\Image" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 56\static\images" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 01\BAND_NAME_GENERATOR" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="100-Days-of-Python-Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="E-MAIL" value="sivam4266@gmail.com" />
+        <env name="PASSWORD" value="1408#sivA" />
+        <env name="MOBILE NO" value="9361325427" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100-Days-of-Python-Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="E-MAIL" value="sivam4266@gmail.com" />
+        <env name="PASSWORD" value="1408#sivA" />
+        <env name="MOBILE NO" value="9361325427, FLASK_ENV=development, FLASK_APP=hello.py, FLASK_DEBUG=1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 54" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 54/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.MY_CREDENTIALS" />
+      <item itemvalue="Python.hello" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hello" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -285,5 +393,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day 50/main.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

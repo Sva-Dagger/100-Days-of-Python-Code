@@ -6,43 +6,45 @@ from time import sleep
 import os
 from dotenv import load_dotenv
 
-load_dotenv(".env")
-MY_EMAIL = os.getenv("MY_EMAIL")
-MY_PASSWORD = os.getenv("MY_PASSWORD")
+load_dotenv("MY_CREDENTIALS.env")
+MY_EMAIL = os.getenv("E-MAIL")
+MY_PASSWORD = os.getenv("PASSWORD")
 PROMISED_DOWN = 1000
 PROMISED_UP = 30
 
-service = Service("C:\Development\chromedriver.exe")
+Edge_options =webdriver.EdgeOptions()
+Edge_options.add_experimental_option("detach", True)
 
 
 class InternetSpeedTwitterBot:
 
     def __init__(self):
-        self.driver = webdriver.Chrome(service=service)
+        self.driver = webdriver.Edge(options=Edge_options)
         self.down = 0
         self.up = 0
 
     def get_internet_speed(self):
         self.driver.get("https://www.speedtest.net/")
-        sleep(5)
+        sleep(4)
         self.driver.find_element(By.XPATH,
                             value='//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[1]/a/span[4]').click()
         sleep(40)
         self.down = self.driver.find_element(By.XPATH,
-                                   value='//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div/div[2]/span').text
+                                   value='//*[@id="container"]/div[1]/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[1]/div/div[2]/span').text
         self.up = self.driver.find_element(By.XPATH,
-                                 value='//*[@id="container"]/div/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[3]/div/div[2]/span').text
+                                 value='//*[@id="container"]/div[1]/div[3]/div/div/div/div[2]/div[3]/div[3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div/div[2]/span').text
+
+
 
         print(f"Download = {self.down} Mbps")
         print(f"Upload = {self.up} Mbps")
         sleep(2)
-        twitter_bot.tweet_at_provider()
 
     def tweet_at_provider(self):
         self.driver.maximize_window()
-        self.driver.get("https://twitter.com/login")
+        self.driver.get("https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D")
         sleep(5)
-        email = self.driver.find_element(By.XPATH, value='//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[5]/label/div/div[2]/div/input')
+        email = self.driver.find_element(By.XPATH, value='//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[4]/label/div/div[2]/div/input')
         email.send_keys(MY_EMAIL)
         sleep(2)
         email.send_keys(Keys.ENTER)
@@ -63,4 +65,4 @@ class InternetSpeedTwitterBot:
 
 
 twitter_bot = InternetSpeedTwitterBot()
-twitter_bot.get_internet_speed()
+twitter_bot.tweet_at_provider()

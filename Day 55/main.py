@@ -16,13 +16,13 @@ def home_page():
 @app.route("/<int:guess>")
 def user_guess(guess):
     if guess < random_number:
-        return '<h1 style="color: green">Too low, try again.</h1>' \
+        return '<h1 style="color: blue">Too low, try again.</h1>' \
                '<img src="https://media.giphy.com/media/jD4DwBtqPXRXa/giphy-downsized-large.gif" width=200>'
     elif guess == random_number:
         return '<h1 style="color: green">Correct, you won!</h1>' \
                '<img src="https://media.giphy.com/media/4T7e4DmcrP9du/giphy.gif" width=200>'
     else:
-        return '<h1 style="color: green">Too high, try again.</h1>' \
+        return '<h1 style="color: red">Too high, try again.</h1>' \
                '<img src="https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif" width=200>'
 
 
