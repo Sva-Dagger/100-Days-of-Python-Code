@@ -5,4 +5,4 @@ denominations = [100, 200, 500]
 UI = UI()
 
 #Welcome Menu
-UI.WELCOME()
+UI.Create_Account_widget()

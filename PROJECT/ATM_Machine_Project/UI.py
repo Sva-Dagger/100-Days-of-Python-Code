@@ -54,8 +54,6 @@ class UI:
         self.Card_button = None
         self.Insert_label = None
         self.Welcome_label = None
-
-
     def WELCOME(self):
         self.DESTROY_WIDGET()
         self.window.configure(padx=350, pady=200, bg=THEME_COLOR)
@@ -397,11 +395,13 @@ class UI:
             self.transactions = []
 
     def SAVE_BALANCE(self):
-        with open('balance.json', 'w') as file:
+        """with open('balance.json', 'w') as file:
             json.dump({
                 "balance": self.balance,
                 "transactions": self.transactions
-            }, file, indent=4)
+            }, file, indent=4)"""
+
+
 
     def SHOW_BALANCE(self):
         self.LOAD_BALANCE()

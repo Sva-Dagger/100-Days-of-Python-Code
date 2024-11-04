@@ -5,61 +5,677 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Day 37/Create user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 49/ENV_FILE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 53/Function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 54/HTML_DESIGN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 54/user_creation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 56/SIVA.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/Training-2/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/Training-3/templates/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/Training-3/templates/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 57/Training-3/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-1/flower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-1/goal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-1/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/box-seam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/bus-front.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/chat-square-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/chevron-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/couple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/moving-van.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-2/website-text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/goal images/features-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/goal images/footer-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/goal images/pricing-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/goal images/testimonial-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/goal images/title-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/images/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/images/tnw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 58/Training-3/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 59/Training-1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 59/Training-1/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 59/Training-1/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 59/Training-1/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 29/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 29/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 31/Flashy Card.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project-1/MAIN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project-1/SHOW_MESSAGE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project-1/SQL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project-1/TOOLS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project-1/UI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project-1/Welcome" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project-1/card_insert.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/100-Days-of-Python-Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100-Days-of-Python-Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21-Oct-2024_11_38_am_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21-Oct-2024_11_38_am__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 01/Day 01 Band_Name_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 01/BAND_NAME_GENERATOR/Day 01 Band_Name_Generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 37/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 37/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 39/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 39/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 49/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 49/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 50/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 50/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 51/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 51/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 52/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 52/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 54/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 54/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 54/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 54/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 55/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 55/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/ie9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/images/overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/css/noscript.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/js/PIE.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/js/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/base/_page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/base/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/components/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/components/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/components/_icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/components/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/ie8.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/ie9.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/layout/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/layout/_wrapper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/libs/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/libs/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/libs/_skel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/libs/_vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/assets/sass/noscript.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/images/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/static/images/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 01/BAND_NAME_GENERATOR/Day 01 Band_Name_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 01/Project/BAND_NAME_GENERATOR/Day 01 Band_Name_Generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 01/Day 01 Variable_Swap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 01/Training/Day 01 Variable_Swap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 02/Day 02 BMI_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 BMI_Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 02/Day 02 Challenge Life in Weeks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 Challenge Life in Weeks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 02/Day 02 Coding Challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 Coding Challenge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 02/Day 02 Project - Tip Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 Project - Tip Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 02/Day 02 Type Checking and Type Conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 Type Checking and Type Conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 BMI 2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 BMI 2.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 If else conditional statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 If else conditional statement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 Leap year.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Leap year.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 Love Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Love Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 Multiple if statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Multiple if statement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 Nested If Statment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Nested If Statment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 Odd or Even.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Odd or Even.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 Pizza order practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Pizza order practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 Treasure Island.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Treasure Island.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 add conditional sttement to multi if statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 add conditional sttement to multi if statement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 03/Day 03 if elif and else Statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 if elif and else Statement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 04/Art.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 04/Day 04 Banker Roulette.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Day 04 Banker Roulette.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 04/Day 04 Random Module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Day 04 Random Module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 04/Day 04 Rock Paper Scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Day 04 Rock Paper Scissor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 04/Day 04 index error and Nsted Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Day 04 index error and Nsted Lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 05/Day 05 Even_Number_Count.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Even_Number_Count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 05/Day 05 Fizz Buzz Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Fizz Buzz Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 05/Day 05 High_Score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 High_Score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 05/Day 05 Password Generator(Easy_Level).py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Password Generator(Easy_Level).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 05/Day 05 Password Generator(Hard_Level).py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Password Generator(Hard_Level).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 05/Day 05 Students Avr Height.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Students Avr Height.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 06/Day 06 Challenge-1 Picking random word.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 06/Day 06 Challenge-1 Picking random word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 07/Art.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 07/Art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 07/Day 07 Challenge-1 Hangman with Lives .py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 07/Day 07 Challenge-1 Hangman with Lives .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 07/Day 07 Challenge-1 Replace letters with blanks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 07/Day 07 Challenge-1 Replace letters with blanks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 08/Day 08 Caesar cypher-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 08/Day 08 Caesar cypher-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 08/Day 08 Func with Input Argument.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 08/Day 08 Func with Input Argument.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 09/Day 09 Challenge 3 Dict in List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 09/Day 09 Challenge 3 Dict in List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 09/Day 09 Grading_Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 09/Day 09 Grading_Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 09/Day 09 Project Bidding Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 09/Day 09 Project Bidding Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 10/Day 10 Calculator with Continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 10/Day 10 Calculator with Continue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 10/Day 10 Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 10/Day 10 Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 10/Day 10 Challenge 1 Leap Year.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 10/Day 10 Challenge 1 Leap Year.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 10/Day 10 Functions and output.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 10/Day 10 Functions and output.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 100/NLSY97_Variable_Names_and_Descriptions.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 100/NLSY97_subset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 100/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 100/day100.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 11/Day 11 Capstone_project - Black_jack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 11/Day 11 Capstone_project - Black_jack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 11/Day 11 Capstone_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 11/Day 11 Capstone_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 11/Day 11 Complete code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 11/Day 11 Complete code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 12/Day 12 Name_space.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 12/Day 12 Name_space.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 13/Day 13 Reproduce the bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 13/Day 13 Reproduce the bug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 14/Day 14 Higher vs Lower Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 14/Day 14 Higher vs Lower Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 14/Day 14 art.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 14/Day 14 art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 14/Day 14 game_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 14/Day 14 game_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 15/Day 15 Coffee machine Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 15/Day 15 Coffee machine Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 16/Day 16 Python Turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 16/Day 16 Python Turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 17/Day 17 OOP with Coffee Machine project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 17/Day 17 OOP with Coffee Machine project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 17/coffee_maker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 17/coffee_maker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 17/menu_coffee.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 17/menu_coffee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 17/money_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 17/money_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 18/Day 18 Make_a_Paintings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 18/Day 18 Make_a_Paintings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 18/Day 18 Make_a_pyrograh.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 18/Day 18 Make_a_pyrograh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 18/Day 18 Python_Turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 18/Day 18 Python_Turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 18/Day 18 Python_Turtle_Random_walk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 18/Day 18 Python_Turtle_Random_walk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 19/Day 19 Turtle race Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 19/Day 19 Turtle race Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 19/Day 19 Turtle race.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 19/Day 19 Turtle race.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/Day 20 Animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/Day 20 Animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/Day 20 Snake_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/Day 20 Snake_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/Food.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/Food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/High_score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/Training-2/Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/New_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/Training-2/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/New_score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/New_score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 20/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 21/Day 21 Slicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/Day 21 Slicing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 21/New_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/New_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 21/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 21/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/ball.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 21/paddle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/paddle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 23/Race_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 23/Race_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 23/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 23/car_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 23/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 23/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 23/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 23/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 24/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 24/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/2018-Central-Park-Squirrel-Census-Squirrel-Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/2018-Central-Park-Squirrel-Census-Squirrel-Data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/50_States_of_America.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/50_States_of_America.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/50_states.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/50_states.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/CSV Data in Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/CSV Data in Python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/Data_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/Data_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/Working with Pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/Working with Pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/blank_states_img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/blank_states_img.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 26/Dictionary_Comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 26/Dictionary_Comprehension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 26/Iterate_over_a_data_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 26/Iterate_over_a_data_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 26/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 26/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 26/nato_phonetic_alphabet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 26/nato_phonetic_alphabet.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 27/Arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 27/Arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 27/Car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 27/Car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 27/Day 26 tkinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 27/Day 26 tkinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 27/Mile_to_kilometer_Converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 27/Mile_to_kilometer_Converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 28/Day 28 Canvas widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 58/Training-2/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 28/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 28/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 28/tomato.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 28/tomato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 29/Email_Password_Data_Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 29/Email_Password_Data_Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 29/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 29/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 29/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/High_score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 29/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/New_File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 30/Error_Handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 30/Error_Handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 31/Flashy Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 28/Day 28 Canvas widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 31/card_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 31/card_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 31/card_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 31/card_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 31/french_words.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 31/french_words.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 31/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 31/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 31/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 31/right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 31/wrong.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 31/wrong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 32/Letter_templates/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 32/Letter_templates/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 32/birthdays.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 32/birthdays.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 32/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 32/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 32/quotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 32/quotes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 33/Kanye/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 33/Kanye/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 33/Kanye/kanye.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 33/Kanye/kanye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 33/Kanye/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 33/Kanye/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 33/Sun-rise/Sunset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 33/Sun-rise/Sunset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 33/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 33/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 34/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 34/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 34/images/false.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 34/images/false.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 34/images/true.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 34/images/true.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 34/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 34/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 34/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 34/question_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 34/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 34/quiz_brain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 34/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 34/ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 35/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 35/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 35/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 35/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 36/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 36/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 36/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 36/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 37/Create user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 37/Create user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 37/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 37/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 37/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 37/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 37/response.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 37/response.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 38/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 38/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 38/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 38/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 39/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 39/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 39/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 39/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 39/flight_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 39/flight_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 39/flight_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 39/flight_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 39/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 39/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 39/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 39/notification_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 40/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 40/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 40/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 40/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 40/flight_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 40/flight_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 40/flight_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 40/flight_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 40/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 40/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 40/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 40/notification_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 41/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 41/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 41/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 41/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 41/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 41/hobbies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 41/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 41/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 41/profile pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 41/profile pic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 42/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 42/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 42/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 42/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 42/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 42/hobbies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 42/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 42/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 43/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 43/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 43/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 43/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 43/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 43/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 43/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 43/hobbies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 43/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 43/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 43/profile pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 43/profile pic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 44/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 44/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 44/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 44/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 44/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 44/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 44/images/chillies.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 44/images/chillies.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 44/images/cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 44/images/cloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 44/images/mountain.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 44/images/mountain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 44/images/profile pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 44/images/profile pic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 44/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 44/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 45/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 45/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 45/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 45/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 45/movies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 45/movies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 46/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 46/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 46/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 46/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 47/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 47/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 47/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 47/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 48/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 48/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 48/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 48/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 49/ENV_FILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 49/ENV_FILE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 49/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 49/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 49/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 49/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 50/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 50/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 50/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/Day 50/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 51/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 52/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 53/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 54/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 55/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/Training-1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/Training-1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/Training-1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/Training-1/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/Training-3/post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/Training-3/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/Training-3/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/templates/post2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 57/templates/post3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/images/TechCrunch.png" beforeDir="false" afterPath="$PROJECT_DIR$/Day 58/Training-3/images/techcrunch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/images/bizinsider.png" beforeDir="false" afterPath="$PROJECT_DIR$/Day 58/Training-3/images/bizinsider.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/images/dog-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Day 58/Training-3/images/dog-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/images/iphone6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/images/lady-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/images/mashable.png" beforeDir="false" afterPath="$PROJECT_DIR$/Day 58/Training-3/images/mashable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/images/tnw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 58/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/static/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/static/assets/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/static/assets/img/about-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/about-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/static/assets/img/contact-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/contact-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/static/assets/img/home-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/home-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/static/assets/img/post-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/post-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/static/assets/img/post-sample-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/post-sample-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/static/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day 59/Training-1/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 59/templates/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/static/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/static/assets/img/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/static/assets/img/contact-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/static/assets/img/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/static/assets/img/post-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/static/assets/img/post-sample-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/static/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 60/templates/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/templates/denied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 61/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 62/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 62/cafe-data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 62/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 62/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 62/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 62/templates/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 62/templates/cafes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 62/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 63/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 63/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 63/templates/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 63/templates/edit_rating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 63/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 64/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 64/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 64/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 64/templates/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 64/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 64/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 64/templates/select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 65/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 66/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 66/cafes.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 66/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 66/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/posts.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/css/clean-blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/css/clean-blog.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/img/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/img/contact-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/img/edit-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/js/clean-blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/js/clean-blog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/js/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_bootstrap-overrides.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_masthead.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/scss/clean-blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/static/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/templates/make-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 67/templates/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/static/files/cheat_sheet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 68/templates/secrets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/css/clean-blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/css/clean-blog.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/img/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/img/contact-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/img/edit-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/js/clean-blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/js/clean-blog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/js/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_bootstrap-overrides.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_masthead.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/scss/clean-blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/static/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/make-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 69/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 70/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 71/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 71/day71.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 71/salaries_by_college_major.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 72/QueryResults.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 72/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 72/day72.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/assets/bricks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/assets/lego_sets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/assets/lego_themes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/assets/rebrickable_schema.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/data/colors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/data/sets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/data/themes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 73/day73.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 74/Bitcoin Search Trend.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 74/Daily Bitcoin Price.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 74/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 74/TESLA Search Trend vs Price.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 74/UE Benefits Search vs UE Rate 2004-19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 74/UE Benefits Search vs UE Rate 2004-20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 74/day74.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 75/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 75/apps.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 75/day75.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 76/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 76/day76.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 76/yummy_macarons.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 77/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 77/cost_revenue_dirty.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 77/day77.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 78/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 78/day78.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 78/nobel_prize_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 79/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 79/annual_deaths_by_clinic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 79/day_79.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 79/monthly_deaths.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 80/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 80/boston.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 80/day80.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 81/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 81/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 57/Training-2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/css/images/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/css/images/ie/grad0-15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/css/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/js/breakpoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/js/browser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/js/jquery.scrollex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/js/jquery.scrolly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/sass/libs/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/sass/libs/_html-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/sass/libs/_vendor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/pic04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/pic05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/pic06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/pic07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/static/images/pic08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 82/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 83/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 83/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 84/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 84/arial.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 84/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 84/nature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 84/watermarked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 85/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 85/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 85/words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 86/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 86/ball.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 86/bricks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 86/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 86/paddle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 86/scoreboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/cafes.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/templates/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/templates/cafes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/templates/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 87/templates/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 88/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 88/db.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 88/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 88/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 89/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 89/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 90/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 90/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 91/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 91/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 91/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 92/4k monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 92/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 92/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 93/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 93/t-rex_bot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/background-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/pixel_laser_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/pixel_laser_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/pixel_laser_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/pixel_laser_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/pixel_ship_blue_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/pixel_ship_green_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/pixel_ship_red_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/assets/pixel_ship_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 94/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 95/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 95/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 96/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 96/public/cancel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 96/public/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 96/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 96/public/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 96/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 96/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 97/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 97/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 98/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 98/day98.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 98/mission_launches.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 99/Deaths_by_Police_US.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 99/Median_Household_Income_2015.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 99/Pct_Over_25_Completed_High_School.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 99/Pct_People_Below_Poverty_Level.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 99/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 99/Share_of_Race_By_City.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 99/day99.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/MAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/MAIN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/ATM_Machine_Project/UI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +690,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -117,6 +733,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Day 25/Working with Pandas.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -170,7 +789,9 @@
     &quot;Python.INVENTORY_PROJECT (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.INVENTORY_PROJECT.executor&quot;: &quot;Run&quot;,
     &quot;Python.Interaction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Iterate_over_a_data_frame.executor&quot;: &quot;Run&quot;,
     &quot;Python.Key_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LOGIN.executor&quot;: &quot;Run&quot;,
     &quot;Python.MAIN.executor&quot;: &quot;Run&quot;,
     &quot;Python.MENU_OPTION.executor&quot;: &quot;Run&quot;,
     &quot;Python.MY_CREDENTIALS.executor&quot;: &quot;Run&quot;,
@@ -180,6 +801,8 @@
     &quot;Python.New_File.executor&quot;: &quot;Run&quot;,
     &quot;Python.New_file.executor&quot;: &quot;Run&quot;,
     &quot;Python.PIN_ENTRY.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SQL.executor&quot;: &quot;Run&quot;,
     &quot;Python.Sunset.executor&quot;: &quot;Run&quot;,
     &quot;Python.TASK1 ATM_Machine_project.executor&quot;: &quot;Run&quot;,
     &quot;Python.UI.executor&quot;: &quot;Run&quot;,
@@ -193,6 +816,7 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.main2.executor&quot;: &quot;Run&quot;,
     &quot;Python.menu_coffee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.post.executor&quot;: &quot;Run&quot;,
     &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
     &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
     &quot;Python.server.executor&quot;: &quot;Run&quot;,
@@ -202,7 +826,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Day 51&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Day 57/Training-2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
@@ -216,18 +840,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 57\Training-2" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\PROJECT" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 51" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 50" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day43\HTML WEBPAGE(Normal)" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 34" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 57\Training-1\static" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 57\Training-1\templates" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 56\Image" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 56\static\images" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 01\BAND_NAME_GENERATOR" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 59\Training-1" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 59\Training-1\static" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\PROJECT\ATM_Machine_Project-1" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-01 Basics Data Structure\Day 01\Training" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-01 Basics Data Structure\Day 01\Project" />
     </key>
   </component>
   <component name="RunManager">
@@ -398,7 +1022,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day 50/main.py</url>
+          <url>file://$PROJECT_DIR$/Level-02 Advanced/Day 50/main.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
