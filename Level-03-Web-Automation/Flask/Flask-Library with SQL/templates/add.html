@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Add Book</title>
-  </head>
-  <body>
-    <form action="" method="POST">
-      <label>Book Name</label>
-      <input type="text" />
-      <label>Book Author</label>
-      <input type="text" />
-      <label>Rating</label>
-      <input type="text" />
-      <button type="submit">Add Book</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Book</title>
+</head>
+<body>
+    <h1>Add a New Book</h1>
+    <form action="{{ url_for('add') }}" method="POST">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <br><br>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+        <br><br>
+        <label for="rating">Rating:</label>
+        <input type="number" id="rating" name="rating" step="0.1" min="0" max="10" required>
+        <br><br>
+        <button type="submit">Add Book</button>
     </form>
-  </body>
+    <br>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
 </html>
