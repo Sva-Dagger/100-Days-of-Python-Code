@@ -5,315 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Login-Creation/SOL/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Login-Creation/SOL/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Login-Creation/SOL/templates/denied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Login-Creation/SOL/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Login-Creation/SOL/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Login-Creation/SOL/templates/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Login-Creation/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/Form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/cafe-data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/templates/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/templates/cafes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/templates/denied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Coffee-Shop-Webpage-Data-Management/SOL/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Library with SQL/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Library with SQL/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Library with SQL/templates/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Library with SQL/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/static/assets/img/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/static/assets/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/static/assets/img/home-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/static/assets/img/post-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/static/assets/img/post-sample-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/static/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/python-package-conda.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/MY_CREDENTIALS.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Cafe_with_rest_API/instance/cafes.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Cafe_with_rest_API/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Cafe_with_rest_API/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Cafe_with_rest_API/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/external-links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/edit-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/js/scripts1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/make-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CofeeMachin_Prohect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/CofeeMachin_Prohect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee_Machine_Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Coffee_Machine_Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 51/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Upload_Download_Speed-Poster/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 52/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Instagram-Auto-Folower/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 53/Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Selenium-Automation/Function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 53/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Selenium-Automation/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 54/HTML_DESIGN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Wrapping-Function/HTML_DESIGN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 54/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Wrapping-Function/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 54/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Wrapping-Function/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 54/user_creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Wrapping-Function/user_creation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 55/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Guess_the_number/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/IMG resize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Html-Resume/Day 56/IMG resize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/Image/SIVA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Html-Resume/Day 56/Image/SIVA.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/SIVA.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Html-Resume/Day 56/SIVA.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/resized_circular_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Html-Resume/Day 56/resized_circular_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 56/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Html-Resume/Day 56/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-1/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-1/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-1/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-2/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-2/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-2/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-2/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-2/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-2/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-2/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-3/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-3/post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-3/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-3/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-3/templates/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-3/templates/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-3/templates/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-3/templates/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-3/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-3/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 57/Training-3/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Agify-Namify-HTML/Training-3/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-1/flower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-1/flower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-1/goal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-1/goal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-1/solution.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-1/solution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/box-seam.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/box-seam.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/briefcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/briefcase.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/bus-front.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/bus-front.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/chat-square-heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/chat-square-heart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/chevron-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/chevron-right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/couple.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/couple.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/dog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/family.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/family.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/moving-van.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/moving-van.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/solution.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/solution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-2/website-text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-2/website-text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/css/solution.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/css/solution.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/goal images/features-goal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/goal images/features-goal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/goal images/footer-goal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/goal images/footer-goal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/goal images/pricing-goal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/goal images/pricing-goal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/goal images/testimonial-goal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/goal images/testimonial-goal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/goal images/title-goal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/goal images/title-goal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/images/bizinsider.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/images/bizinsider.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/images/dog-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/images/dog-img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/images/iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/images/iphone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/images/mashable.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/images/mashable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/images/techcrunch.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/images/techcrunch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/images/tnw.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/images/tnw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 58/Training-3/solution.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Reference/Day 58/Training-3/solution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/static/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/static/assets/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/about-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/static/assets/img/about-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/contact-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/static/assets/img/contact-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/home-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/static/assets/img/home-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/post-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/static/assets/img/post-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/static/assets/img/post-sample-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/static/assets/img/post-sample-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Form-Data-Manager/static/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 59/Training-1/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 01/Project/BAND_NAME_GENERATOR/Day 01 Band_Name_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Band_Name_Generator/Project/BAND_NAME_GENERATOR/Day 01 Band_Name_Generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 01/Training/Day 01 Variable_Swap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Band_Name_Generator/Training/Day 01 Variable_Swap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 BMI_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Tip_Caculator/Training/Day 02 BMI_Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 Challenge Life in Weeks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Tip_Caculator/Training/Day 02 Challenge Life in Weeks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 Coding Challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Tip_Caculator/Training/Day 02 Coding Challenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 Project - Tip Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Tip_Caculator/Project/Day 02 Project - Tip Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 02/Day 02 Type Checking and Type Conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Tip_Caculator/Training/Day 02 Type Checking and Type Conversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 BMI 2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 BMI 2.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 If else conditional statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 If else conditional statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Leap year.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 Leap year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Love Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 Love Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Multiple if statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 Multiple if statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Nested If Statment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 Nested If Statment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Odd or Even.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 Odd or Even.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Pizza order practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 Pizza order practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 Treasure Island.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Project/Day 03 Treasure Island.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 add conditional sttement to multi if statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 add conditional sttement to multi if statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 03/Day 03 if elif and else Statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Treasure Island/Training/Day 03 if elif and else Statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Art.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Rock-Paper-Scissor/Training/Art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Day 04 Banker Roulette.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Rock-Paper-Scissor/Training/Day 04 Banker Roulette.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Day 04 Random Module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Rock-Paper-Scissor/Training/Day 04 Random Module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Day 04 Rock Paper Scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Rock-Paper-Scissor/Project/Day 04 Rock Paper Scissor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 04/Day 04 index error and Nsted Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Rock-Paper-Scissor/Training/Day 04 index error and Nsted Lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Even_Number_Count.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Password_Generator/Training/Day 05 Even_Number_Count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Fizz Buzz Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Password_Generator/Training/Day 05 Fizz Buzz Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 High_Score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Password_Generator/Training/Day 05 High_Score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Password Generator(Easy_Level).py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Password_Generator/Project/Day 05 Password Generator(Easy_Level).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Password Generator(Hard_Level).py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Password_Generator/Project/Day 05 Password Generator(Hard_Level).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 05/Day 05 Students Avr Height.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Password_Generator/Training/Day 05 Students Avr Height.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 06/Day 06 Challenge-1 Picking random word.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 07/Art.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Hangman/Project/Art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 07/Day 07 Challenge-1 Hangman with Lives .py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Hangman/Project/Day 07 Challenge-1 Hangman with Lives .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 07/Day 07 Challenge-1 Replace letters with blanks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Hangman/Training/Day 07 Challenge-1 Replace letters with blanks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 08/Day 08 Caesar cypher-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Bidding_Game/Project/Day 08 Caesar cypher-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 08/Day 08 Func with Input Argument.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Bidding_Game/Training/Day 08 Func with Input Argument.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 09/Day 09 Challenge 3 Dict in List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Bidding_Game-2/Training/Day 09 Challenge 3 Dict in List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 09/Day 09 Grading_Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Bidding_Game-2/Training/Day 09 Grading_Program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 09/Day 09 Project Bidding Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Bidding_Game-2/Project/Day 09 Project Bidding Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 10/Day 10 Calculator with Continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Calculator/Project/Day 10 Calculator with Continue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 10/Day 10 Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Calculator/Training/Day 10 Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 10/Day 10 Challenge 1 Leap Year.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Calculator/Training/Day 10 Challenge 1 Leap Year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 10/Day 10 Functions and output.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Calculator/Training/Day 10 Functions and output.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 11/Day 11 Capstone_project - Black_jack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Capstone Project-Black Jack/Project/Day 11 Capstone_project - Black_jack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 11/Day 11 Capstone_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Capstone Project-Black Jack/Training/Day 11 Capstone_project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 11/Day 11 Complete code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Capstone Project-Black Jack/Training/Day 11 Complete code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 12/Day 12 Name_space.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 13/Day 13 Reproduce the bug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 14/Day 14 Higher vs Lower Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Higher-Lower Game/Project/Day 14 Higher vs Lower Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 14/Day 14 art.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Higher-Lower Game/Project/Day 14 art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 14/Day 14 game_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Higher-Lower Game/Project/Day 14 game_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 15/Day 15 Coffee machine Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Coffee Machine Project/Day 15 Coffee machine Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 16/Day 16 Python Turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Python-Turtle/Day 16 Python Turtle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 17/Day 17 OOP with Coffee Machine project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/OOP-Coffee Machine Project/Project/Day 17 OOP with Coffee Machine project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 17/coffee_maker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/OOP-Coffee Machine Project/Project/coffee_maker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 17/menu_coffee.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/OOP-Coffee Machine Project/Project/menu_coffee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 17/money_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/OOP-Coffee Machine Project/Project/money_machine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 18/Day 18 Make_a_Paintings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Python-Turtle-Design/Project/Day 18 Make_a_Paintings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 18/Day 18 Make_a_pyrograh.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Python-Turtle-Design/Project/Day 18 Make_a_pyrograh.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 18/Day 18 Python_Turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Python-Turtle-Design/Training/Day 18 Python_Turtle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 18/Day 18 Python_Turtle_Random_walk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Python-Turtle-Design/Training/Day 18 Python_Turtle_Random_walk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 19/Day 19 Turtle race Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Turtle-Race/Day 19 Turtle race Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 19/Day 19 Turtle race.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Turtle-Race/Day 19 Turtle race.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/Day 20 Animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Training/Day 20 Animal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/Day 20 Snake_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Project/Day 20 Snake_Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/Food.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Project/Food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/High_score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Project/High_score.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/New_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Training/New_File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/New_score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Project/New_score.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Project/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 20/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Tutle-Snake-Game/Project/snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/Day 21 Slicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Ping-Pong/Ping-pong/Day 21 Slicing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/New_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Ping-Pong/Ping-pong/New_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Ping-Pong/Ping-pong/art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Ping-Pong/Ping-pong/ball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 21/paddle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Ping-Pong/Ping-pong/paddle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 23/Race_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Car-Race-Game/Project/Race_Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 23/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Car-Race-Game/Project/car_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 23/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Car-Race-Game/Project/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 23/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/Car-Race-Game/Project/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 24/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Mail-Greeting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/2018-Central-Park-Squirrel-Census-Squirrel-Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/50-States-Project/Training/2018-Central-Park-Squirrel-Census-Squirrel-Data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/50_States_of_America.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/50-States-Project/Project/50_States_of_America.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/50_states.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/50-States-Project/Project/50_states.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/CSV Data in Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/50-States-Project/Training/CSV Data in Python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/Data_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/50-States-Project/Training/Data_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/Working with Pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/50-States-Project/Training/Working with Pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-01 Basics Data Structure/Day 25/blank_states_img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Turtle/50-States-Project/Project/blank_states_img.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 26/Dictionary_Comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Dict-Data/Training/Dictionary_Comprehension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 26/Iterate_over_a_data_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Dict-Data/Training/Iterate_over_a_data_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 26/New_CSV.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Dict-Data/Training/New_CSV.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 26/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Dict-Data/Training/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 26/nato_phonetic_alphabet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Dict-Data/Training/nato_phonetic_alphabet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 27/Arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tkinter-Basics/Training/Arguments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 27/Car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tkinter-Basics/Training/Car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 27/Day 26 tkinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tkinter-Basics/Day 26 tkinder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 27/Mile_to_kilometer_Converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tkinter-Basics/Training/Mile_to_kilometer_Converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 28/Day 28 Canvas widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tomato-Work-Timer/Project/Day 28 Canvas widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 28/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tomato-Work-Timer/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 28/tomato.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tomato-Work-Timer/Project/tomato.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 29/Email_Password_Data_Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tkinter-Email-Login/Project/Email_Password_Data_Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 29/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tkinter-Email-Login/Project/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 29/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tkinter-Email-Login/Project/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 29/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Tkinter-GUI/Tkinter-Email-Login/Project/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 30/Error_Handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Error-Handling/Error_Handling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 31/Flashy Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flash-Card-Tkinter/Project/Flashy Card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 31/card_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flash-Card-Tkinter/Project/card_back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 31/card_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flash-Card-Tkinter/Project/card_front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 31/french_words.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flash-Card-Tkinter/Project/french_words.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 31/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flash-Card-Tkinter/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 31/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flash-Card-Tkinter/Project/right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 31/wrong.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flash-Card-Tkinter/Project/wrong.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 32/Letter_templates/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Email-Sender/Project/Letter_templates/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 32/birthdays.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Email-Sender/Project/birthdays.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 32/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Email-Sender/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 32/quotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-01 Basics Data Structure/Basic_Data_Handling/Email_Data_Handling/Email-Sender/Project/quotes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 33/Kanye/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Based-image-Answer/Project/Kanye/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 33/Kanye/kanye.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Based-image-Answer/Project/Kanye/kanye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 33/Kanye/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Based-image-Answer/Project/Kanye/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 33/Sun-rise/Sunset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Based-image-Answer/Project/Sun-rise/Sunset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 33/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Based-image-Answer/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 34/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Quiz-Answer/Project/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 34/images/false.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Quiz-Answer/Project/images/false.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 34/images/true.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Quiz-Answer/Project/images/true.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 34/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Quiz-Answer/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 34/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Quiz-Answer/Project/question_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 34/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Quiz-Answer/Project/quiz_brain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 34/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Quiz-Answer/Project/ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 35/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Telegram-API/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 35/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Telegram-API/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 36/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/APi-Stock-Market/Project/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 36/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/APi-Stock-Market/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 37/Create user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Pixela-API/Create user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 37/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Pixela-API/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 37/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Pixela-API/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 37/response.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Pixela-API/response.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 38/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Nutrionix/Project/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 38/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Nutrionix/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 39/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flight-Data-Management/Project/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 39/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flight-Data-Management/Project/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 39/flight_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flight-Data-Management/Project/flight_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 39/flight_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flight-Data-Management/Project/flight_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 39/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flight-Data-Management/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 39/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Flight-Data-Management/Project/notification_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 40/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Flight-Data/Project/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 40/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Flight-Data/Project/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 40/flight_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Flight-Data/Project/flight_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 40/flight_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Flight-Data/Project/flight_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 40/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Flight-Data/Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 40/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/API-Flight-Data/Project/notification_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 41/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 41/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-CSS/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 41/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-CSS/hobbies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 41/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-CSS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 41/profile pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-CSS/profile pic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 42/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 42/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Profile/Project/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 42/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Profile/Project/hobbies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 42/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Profile/Project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 43/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 43/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/My_Profile/Project/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 43/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/My_Profile/Project/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 43/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/My_Profile/Project/hobbies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 43/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/My_Profile/Project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 43/profile pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML_Profile/images/profile pic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 44/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 44/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML_Profile/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 44/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML_Profile/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 44/images/chillies.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML_Profile/images/chillies.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 44/images/cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML_Profile/images/cloud.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 44/images/mountain.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML_Profile/images/mountain.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 44/images/profile pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/My_Profile/Project/profile pic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 44/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML_Profile/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 45/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 45/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Webscapping/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 45/movies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/HTML-Webscapping/movies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 46/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Spotify-API-Billboard/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 46/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/API/Spotify-API-Billboard/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 47/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Amazon-Price-Scrapping/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 47/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-02 Advanced/HTML/Amazon-Price-Scrapping/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 48/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Selenium-Python-Automation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 48/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Selenium-Python-Automation/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 49/ENV_FILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Selenium-Form-Filing/ENV_FILE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 49/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Selenium-Form-Filing/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 49/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/Selenium-Form-Filing/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 50/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-02 Advanced/Day 50/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Selenium/LinkedIN Automation/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WITHDRAW.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Library with SQL/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Library with SQL/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/instance/Top-Movies-Collection.db" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/instance/Top-Movies-Collection.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/templates/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -382,146 +107,123 @@
   <component name="ProjectId" id="2mMr5xL8zhDVmExx7sA8r9GJCaN" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python tests.Doctests in socket.executor": "Run",
-    "Python.50_States_of_America.executor": "Run",
-    "Python.ATM_Machine.executor": "Run",
-    "Python.ATM_app.executor": "Run",
-    "Python.BUS TICKET.executor": "Run",
-    "Python.Balance.executor": "Run",
-    "Python.CSV Data in Python.executor": "Run",
-    "Python.Coffee_Machine_Project.executor": "Run",
-    "Python.Create user.executor": "Run",
-    "Python.DEPOSIT.executor": "Run",
-    "Python.Data_dict.executor": "Run",
-    "Python.Day 02 Project - Tip Calculator.executor": "Run",
-    "Python.Day 03 Treasure Island.executor": "Run",
-    "Python.Day 04 Banker Roulette.executor": "Run",
-    "Python.Day 04 Random Module.executor": "Run",
-    "Python.Day 04 Rock Paper Scissor.executor": "Run",
-    "Python.Day 04 index error and Nsted Lists.executor": "Run",
-    "Python.Day 05 Even_Number_Count.executor": "Run",
-    "Python.Day 05 Password Generator(Easy_Level).executor": "Run",
-    "Python.Day 05 Password Generator(Hard_Level).executor": "Run",
-    "Python.Day 07 Challenge-1 Hangman with Lives .executor": "Run",
-    "Python.Day 07 Challenge-1 Replace letters with blanks.executor": "Run",
-    "Python.Day 08 Caesar cypher-1.executor": "Run",
-    "Python.Day 08 Func with Input Argument.executor": "Run",
-    "Python.Day 17 OOP with Coffee Machine project.executor": "Run",
-    "Python.Day 18 Make_a_Paintings.executor": "Run",
-    "Python.Day 20 Animal.executor": "Run",
-    "Python.Day 20 Snake_Game.executor": "Run",
-    "Python.Day 26 tkinder.executor": "Run",
-    "Python.Day 28 Canvas widgets.executor": "Run",
-    "Python.ENV_FILE.executor": "Run",
-    "Python.Form filling.executor": "Run",
-    "Python.Form.executor": "Run",
-    "Python.Function.executor": "Run",
-    "Python.IMG resize.executor": "Run",
-    "Python.INVENTORY_PROJECT (1).executor": "Run",
-    "Python.INVENTORY_PROJECT.executor": "Run",
-    "Python.Interaction.executor": "Run",
-    "Python.Iterate_over_a_data_frame.executor": "Run",
-    "Python.Key_button.executor": "Run",
-    "Python.LOGIN.executor": "Run",
-    "Python.MAIN.executor": "Run",
-    "Python.MENU_OPTION.executor": "Run",
-    "Python.MY_CREDENTIALS.executor": "Run",
-    "Python.Main.executor": "Run",
-    "Python.Mile_to_kilometer_Converter.executor": "Run",
-    "Python.New.executor": "Run",
-    "Python.New_File.executor": "Run",
-    "Python.New_file.executor": "Run",
-    "Python.PIN_ENTRY.executor": "Run",
-    "Python.Project.executor": "Run",
-    "Python.SQL.executor": "Run",
-    "Python.Sunset.executor": "Run",
-    "Python.TASK1 ATM_Machine_project.executor": "Run",
-    "Python.UI.executor": "Run",
-    "Python.Unnamed.executor": "Run",
-    "Python.VIEW_TRANSACTION.executor": "Run",
-    "Python.WITHDRAW.executor": "Run",
-    "Python.Working with Pandas.executor": "Run",
-    "Python.data.executor": "Run",
-    "Python.data_manager.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "Python.menu_coffee.executor": "Run",
-    "Python.post.executor": "Run",
-    "Python.quiz_brain.executor": "Run",
-    "Python.scoreboard.executor": "Run",
-    "Python.server.executor": "Run",
-    "Python.show_pin_entry.executor": "Run",
-    "Python.ui.executor": "Run",
-    "Python.user_creation.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindow.Terminal.ShowToolbar": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python tests.Doctests in socket.executor&quot;: &quot;Run&quot;,
+    &quot;Python.50_States_of_America.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ATM_Machine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ATM_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BUS TICKET.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Balance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CSV Data in Python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Coffee_Machine_Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Create user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DEPOSIT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 02 Project - Tip Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 03 Treasure Island.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 04 Banker Roulette.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 04 Random Module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 04 Rock Paper Scissor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 04 index error and Nsted Lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 05 Even_Number_Count.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 05 Password Generator(Easy_Level).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 05 Password Generator(Hard_Level).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 07 Challenge-1 Hangman with Lives .executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 07 Challenge-1 Replace letters with blanks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 08 Caesar cypher-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 08 Func with Input Argument.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 17 OOP with Coffee Machine project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 18 Make_a_Paintings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 20 Animal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 20 Snake_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 26 tkinder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day 28 Canvas widgets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ENV_FILE.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Form filling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Form.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IMG resize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.INVENTORY_PROJECT (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.INVENTORY_PROJECT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Interaction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Iterate_over_a_data_frame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Key_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LOGIN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MAIN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MENU_OPTION.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MY_CREDENTIALS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mile_to_kilometer_Converter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.New.executor&quot;: &quot;Run&quot;,
+    &quot;Python.New_File.executor&quot;: &quot;Run&quot;,
+    &quot;Python.New_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PIN_ENTRY.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python_Login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SQL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sunset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TASK1 ATM_Machine_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VIEW_TRANSACTION.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WITHDRAW.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Working with Pandas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu_coffee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.post.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.show_pin_entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.user_creation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Terminal.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Level-03-Web-Automation/Flask&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 62\SOL\templates" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 62\SOL" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 62" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 61\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask_Login_Data\static" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask_Login_Data" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask_Login_Data\assets" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-01 Basics Data Structure" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Basic_Data_Handling" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-02 Advanced" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-01 Basics Data Structure\Email_Data_Handling" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Form" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100-Days-of-Python-Code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="E-MAIL" value="sivam4266@gmail.com" />
-        <env name="PASSWORD" value="1408#sivA" />
-        <env name="MOBILE NO" value="9361325427" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 62/SOL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 62/SOL/Form.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="100-Days-of-Python-Code" />
       <option name="ENV_FILES" value="" />
@@ -547,11 +249,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Form" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

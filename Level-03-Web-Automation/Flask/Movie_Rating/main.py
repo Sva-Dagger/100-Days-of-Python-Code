@@ -69,8 +69,8 @@ class RateMovieForm(FlaskForm):
 
 @app.route("/")
 def home():
-    all_Movies = Movie.query.all()
-    return render_template("index.html", movies=all_Movies)
+    all_movies = Movie.query.all()
+    return render_template("index.html", movies=all_movies)
 
 @app.route("/add", methods=["GET", "POST"])
 def add():
@@ -86,7 +86,7 @@ def add():
         existing_book = Movie.query.filter_by(title=Movie_title).first()
         if existing_book:
             # If the book already exists, return an error message or redirect
-            return "Error: A book with this title already exists.", 400
+            return "Error: A movie with this title already exists.", 400
 
         # If the book does not exist, proceed with adding it
         new_Movie = Movie(title=Movie_title, year=Movie_year, description=Movie_description, ranking=Movie_ranking,
@@ -94,6 +94,7 @@ def add():
         db.session.add(new_Movie)
         db.session.commit()
         return redirect(url_for('home'))
+    return render_template("add.html")
 
 # Adding the Update functionality
 @app.route("/edit", methods=["GET", "POST"])
@@ -108,6 +109,15 @@ def rate_movie():
         return redirect(url_for('home'))
     return render_template("edit.html", movie=movie, form=form)
 
+@app.route("/delete")
+def delete():
+    movie_id = request.args.get('id')
+    # DELETE A RECORD BY ID
+    movie_to_delete = Movie.query.get(movie_id)
+    if movie_to_delete:
+        db.session.delete(movie_to_delete)
+        db.session.commit()
+    return redirect(url_for('home'))
 
 if __name__ == '__main__':
     app.run(debug=True)

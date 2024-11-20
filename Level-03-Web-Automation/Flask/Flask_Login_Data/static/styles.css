@@ -1,0 +1,85 @@
+/* Add padding around the form container */
+        .form-container {
+            padding: 20px; /* Adds 20px padding on all sides */
+            border: 1px solid #ddd; /* Optional: Adds a border around the container */
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        /* Add padding to each form field */
+        .form-field {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px; /* Adds padding inside the input fields */
+            box-sizing: border-box; /* Ensures padding does not exceed input width */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px; /* Adds padding to the button */
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+        .container img {
+            width: auto;
+            height: auto;
+            border-radius: 8px;
+        }
+        .container h1 {
+            font-size: 24px;
+            color: #333;
+            margin: 20px 0;
+        }
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .button-group a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button-group a:hover {
+            background-color: #45a049;
+        }
