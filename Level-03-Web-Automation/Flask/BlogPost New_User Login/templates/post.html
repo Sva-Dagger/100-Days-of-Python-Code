@@ -1,0 +1,71 @@
+{% include "header.html" %}
+
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('{{ post.img_url }}')">
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="post-heading">
+          <h1>{{ post.title }}</h1>
+          <h2 class="subheading">{{ post.subtitle }}</h2>
+          <span class="meta">
+            Posted by
+            <a href="#">{{ post.author }}</a>
+            on {{ post.date }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Post Content -->
+<article>
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        {{ post.body|safe }}
+
+        <!-- Only show Edit Post button if user id is 1 (admin user) -->
+        {% if current_user.id == 1 %}
+        <div class="d-flex justify-content-end mb-4">
+          <a class="btn btn-primary float-right" href="{{ url_for('edit_post', post_id=post.id) }}">Edit Post</a>
+        </div>
+        {% endif %}
+
+        <!-- Comments Area -->
+        <div class="comment-form">
+          <h3>Leave a Comment:</h3>
+          <form method="POST" action="{{ url_for('show_post', post_id=post.id) }}">
+            {{ form.hidden_tag() }}  <!-- This is the correct way to include the CSRF token -->
+            <div class="form-group">
+              <label for="comment_text">Your Comment:</label>
+              {{ form.comment_text(class="form-control", rows=4) }} <!-- Render text area for comment -->
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <!-- Display Comments -->
+        <div class="comment">
+          <ul class="commentList">
+            {% for comment in post.comments %}
+            <li>
+              <div class="commenterImage">
+                <!-- Placeholder image for commenter's avatar -->
+                <img src="{{ url_for('static', filename='images/default_avatar.png') }}" alt="User Avatar">
+              </div>
+              <div class="commentText">
+                {{ comment.text|safe }}
+                <span class="sub-text">{{ comment.comment_author.name }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+{% include "footer.html" %}

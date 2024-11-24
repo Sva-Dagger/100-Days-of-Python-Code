@@ -160,6 +160,5 @@ def contact():
     # Render the contact page with the form
     return render_template("contact.html", form=form)
 
-
 if __name__ == "__main__":
     app.run(debug=True, port=5003)

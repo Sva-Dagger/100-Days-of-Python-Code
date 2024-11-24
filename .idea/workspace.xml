@@ -5,40 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Cafe_with_rest_API/instance/cafes.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Cafe_with_rest_API/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Cafe_with_rest_API/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask_Cafe_with_rest_API/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/external-links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/edit-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/home-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/assets/img/post-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/static/js/scripts1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/make-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/external-links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/static/files/cheat_sheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/secrets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/external-links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/angela-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/default-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/edit-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/register-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/make-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Profile/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Profile/templates/Profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Profile/templates/Web_Profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Library with SQL/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Flask-Library with SQL/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/instance/Top-Movies-Collection.db" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/instance/Top-Movies-Collection.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Movie_Rating/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Simple-Flask-Webpage/Training-1/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,10 +102,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Day 25/Working with Pandas.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Level-03-Web-Automation/Flask/Profile/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -179,6 +185,7 @@
     &quot;Python.Working with Pandas.executor&quot;: &quot;Run&quot;,
     &quot;Python.data.executor&quot;: &quot;Run&quot;,
     &quot;Python.data_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forms.executor&quot;: &quot;Run&quot;,
     &quot;Python.hello.executor&quot;: &quot;Run&quot;,
     &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
@@ -195,7 +202,7 @@
     &quot;ToolWindow.Terminal.ShowToolbar&quot;: &quot;false&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Level-03-Web-Automation/Flask&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Level-03-Web-Automation/Flask/BlogPost New_User Login&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
@@ -209,18 +216,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\BlogPost New_User Login" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Authentication" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 62\SOL\templates" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Day 62\SOL" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Profile\templates" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask_Login_Data\static" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask_Login_Data" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask_Login_Data\assets" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation" />
     </key>
   </component>
   <component name="RunManager">
