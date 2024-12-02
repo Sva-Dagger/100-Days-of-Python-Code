@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/img/happy-face.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/post.html" afterDir="false" />
-    </list>
+    <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="New Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,12 +54,12 @@
     &quot;assignee&quot;: &quot;Sva-Dagger&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sva-Dagger/100-Days-of-Python-Code.git&quot;,
-    &quot;accountId&quot;: &quot;e58d6c2d-f525-4261-a82b-92a77905e482&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sva-Dagger/100-Days-of-Python-Code.git",
+    "accountId": "cd1f846b-fbc0-491f-9d90-eff435835ea5"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Level-03-Web-Automation/Flask/Profile/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -172,7 +166,7 @@
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py",
     "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "configurable.group.project",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.40876657"
   },
   "keyToStringList": {
@@ -315,7 +309,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733109052878</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="New Commit">
+      <option name="closed" value="true" />
+      <created>1733114331991</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733114332005</updated>
+    </task>
+    <task id="LOCAL-00011" summary="New Commit">
+      <option name="closed" value="true" />
+      <created>1733114382580</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733114382580</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -336,7 +346,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Update commit" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="New Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
