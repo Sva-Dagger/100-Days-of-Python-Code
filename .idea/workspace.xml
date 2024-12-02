@@ -4,47 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/external-links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/static/files/cheat_sheet.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Authentication/templates/secrets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/external-links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/angela-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/default-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/edit-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/home-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/post-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/assets/img/register-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/make-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Profile/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Profile/templates/Profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Profile/templates/Web_Profile.html" afterDir="false" />
+    <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Update commit">
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/angela-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/default-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/edit-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/register-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/make-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/pythonProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/100-Days-of-Python-Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100-Days-of-Python-Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/instance/posts.db" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/instance/posts.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Project_Web_Creation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Project_Web_Creation/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,107 +116,111 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python tests.Doctests in socket.executor&quot;: &quot;Run&quot;,
-    &quot;Python.50_States_of_America.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ATM_Machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ATM_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BUS TICKET.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Balance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CSV Data in Python.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Coffee_Machine_Project.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Create user.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DEPOSIT.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Data_dict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 02 Project - Tip Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 03 Treasure Island.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 04 Banker Roulette.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 04 Random Module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 04 Rock Paper Scissor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 04 index error and Nsted Lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 05 Even_Number_Count.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 05 Password Generator(Easy_Level).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 05 Password Generator(Hard_Level).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 07 Challenge-1 Hangman with Lives .executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 07 Challenge-1 Replace letters with blanks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 08 Caesar cypher-1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 08 Func with Input Argument.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 17 OOP with Coffee Machine project.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 18 Make_a_Paintings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 20 Animal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 20 Snake_Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 26 tkinder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day 28 Canvas widgets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ENV_FILE.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Form filling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Form.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.IMG resize.executor&quot;: &quot;Run&quot;,
-    &quot;Python.INVENTORY_PROJECT (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.INVENTORY_PROJECT.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Interaction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Iterate_over_a_data_frame.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Key_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LOGIN.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MAIN.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MENU_OPTION.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MY_CREDENTIALS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mile_to_kilometer_Converter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.New.executor&quot;: &quot;Run&quot;,
-    &quot;Python.New_File.executor&quot;: &quot;Run&quot;,
-    &quot;Python.New_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PIN_ENTRY.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Project.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python_Login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SQL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sunset.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TASK1 ATM_Machine_project.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Python.VIEW_TRANSACTION.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WITHDRAW.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Working with Pandas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_manager.executor&quot;: &quot;Run&quot;,
-    &quot;Python.forms.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.menu_coffee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.post.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quiz_brain.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.show_pin_entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.user_creation.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindow.Terminal.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Level-03-Web-Automation/Flask/BlogPost New_User Login&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python tests.Doctests in socket.executor": "Run",
+    "Python.50_States_of_America.executor": "Run",
+    "Python.ATM_Machine.executor": "Run",
+    "Python.ATM_app.executor": "Run",
+    "Python.BUS TICKET.executor": "Run",
+    "Python.Balance.executor": "Run",
+    "Python.CSV Data in Python.executor": "Run",
+    "Python.Coffee_Machine_Project.executor": "Run",
+    "Python.Create user.executor": "Run",
+    "Python.DEPOSIT.executor": "Run",
+    "Python.Data_dict.executor": "Run",
+    "Python.Day 02 Project - Tip Calculator.executor": "Run",
+    "Python.Day 03 Treasure Island.executor": "Run",
+    "Python.Day 04 Banker Roulette.executor": "Run",
+    "Python.Day 04 Random Module.executor": "Run",
+    "Python.Day 04 Rock Paper Scissor.executor": "Run",
+    "Python.Day 04 index error and Nsted Lists.executor": "Run",
+    "Python.Day 05 Even_Number_Count.executor": "Run",
+    "Python.Day 05 Password Generator(Easy_Level).executor": "Run",
+    "Python.Day 05 Password Generator(Hard_Level).executor": "Run",
+    "Python.Day 07 Challenge-1 Hangman with Lives .executor": "Run",
+    "Python.Day 07 Challenge-1 Replace letters with blanks.executor": "Run",
+    "Python.Day 08 Caesar cypher-1.executor": "Run",
+    "Python.Day 08 Func with Input Argument.executor": "Run",
+    "Python.Day 17 OOP with Coffee Machine project.executor": "Run",
+    "Python.Day 18 Make_a_Paintings.executor": "Run",
+    "Python.Day 20 Animal.executor": "Run",
+    "Python.Day 20 Snake_Game.executor": "Run",
+    "Python.Day 26 tkinder.executor": "Run",
+    "Python.Day 28 Canvas widgets.executor": "Run",
+    "Python.ENV_FILE.executor": "Run",
+    "Python.FLASK_APP.executor": "Run",
+    "Python.Form filling.executor": "Run",
+    "Python.Form.executor": "Run",
+    "Python.Function.executor": "Run",
+    "Python.IMG resize.executor": "Run",
+    "Python.INVENTORY_PROJECT (1).executor": "Run",
+    "Python.INVENTORY_PROJECT.executor": "Run",
+    "Python.Interaction.executor": "Run",
+    "Python.Iterate_over_a_data_frame.executor": "Run",
+    "Python.Key_button.executor": "Run",
+    "Python.LOGIN.executor": "Run",
+    "Python.MAIN.executor": "Run",
+    "Python.MENU_OPTION.executor": "Run",
+    "Python.MY_CREDENTIALS.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.Mile_to_kilometer_Converter.executor": "Run",
+    "Python.My-Credentials.executor": "Debug",
+    "Python.New-Credential.executor": "Debug",
+    "Python.New.executor": "Run",
+    "Python.New_File.executor": "Run",
+    "Python.New_file.executor": "Run",
+    "Python.PIN_ENTRY.executor": "Run",
+    "Python.Project.executor": "Run",
+    "Python.Python_Login.executor": "Run",
+    "Python.SQL.executor": "Run",
+    "Python.Sunset.executor": "Run",
+    "Python.TASK1 ATM_Machine_project.executor": "Run",
+    "Python.UI.executor": "Run",
+    "Python.Unnamed.executor": "Run",
+    "Python.VIEW_TRANSACTION.executor": "Run",
+    "Python.WITHDRAW.executor": "Run",
+    "Python.Working with Pandas.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.data_manager.executor": "Run",
+    "Python.forms.executor": "Run",
+    "Python.hello.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main2.executor": "Run",
+    "Python.menu_coffee.executor": "Run",
+    "Python.post.executor": "Run",
+    "Python.quiz_brain.executor": "Run",
+    "Python.scoreboard.executor": "Run",
+    "Python.server.executor": "Run",
+    "Python.show_pin_entry.executor": "Run",
+    "Python.ui.executor": "Run",
+    "Python.user_creation.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindow.Terminal.ShowToolbar": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Level-03-Web-Automation/Flask/Dpelopying-webpage",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "configurable.group.project",
+    "settings.editor.splitter.proportion": "0.40876657"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Project_Web_Creation" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\BlogPost New_User Login" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Authentication" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Profile\templates" />
@@ -231,7 +231,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="FLASK_APP" type="PythonConfigurationType" factoryName="Python">
       <module name="100-Days-of-Python-Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,8 +239,36 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="E-MAIL" value="sivam4266@gmail.com" />
-        <env name="PASSWORD" value="1408#sivA" />
+        <env name="FLASK_APP" value="main.py" />
+        <env name="FLASK_KEY" value="f4ds6r467885432eertyhft666789u7655" />
         <env name="MOBILE NO" value="9361325427" />
+        <env name="PASSWORD" value="1408#sivA" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="100-Days-of-Python-Code" />
+      <option name="ENV_FILES" value="$USER_HOME$/Desktop/Credencials.env" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="E-MAIL" value="sivam4266@gmail.com" />
+        <env name="MOBILE NO" value="9361325427" />
+        <env name="PASSWORD" value="1408#sivA" />
+        <env name="FLASK_ENV" value="f4ds6r467885432eertyhft666789u7655" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -329,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729445915352</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update commit">
+      <option name="closed" value="true" />
+      <created>1732457797417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732457797417</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -348,7 +384,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
