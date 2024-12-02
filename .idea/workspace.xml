@@ -4,43 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Update commit">
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/angela-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/default-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/edit-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/home-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/post-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/assets/img/register-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/make-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonProject1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/100-Days-of-Python-Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100-Days-of-Python-Code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="eaf22f70-3ed6-4ca5-8189-2d81f78264dd" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/static/img/happy-face.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/instance/posts.db" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Post-Upgradation/instance/posts.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Project_Web_Creation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Project_Web_Creation/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/templates/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +170,7 @@
     "ToolWindow.Terminal.ShowToolbar": "false",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Level-03-Web-Automation/Flask/Dpelopying-webpage",
+    "last_opened_file_path": "C:/Users/Siva/PycharmProjects/100-Days-of-Python-Code/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "configurable.group.project",
     "settings.editor.splitter.proportion": "0.40876657"
@@ -216,11 +185,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Dpelopying-webpage\static\img" />
+      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Dpelopying-webpage" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Project_Web_Creation" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\BlogPost New_User Login" />
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Authentication" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask" />
-      <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Siva\PycharmProjects\100-Days-of-Python-Code\Level-03-Web-Automation\Flask\Profile\templates" />
@@ -231,51 +200,24 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="FLASK_APP" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="100-Days-of-Python-Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
         <env name="E-MAIL" value="sivam4266@gmail.com" />
-        <env name="FLASK_APP" value="main.py" />
         <env name="FLASK_KEY" value="f4ds6r467885432eertyhft666789u7655" />
         <env name="MOBILE NO" value="9361325427" />
         <env name="PASSWORD" value="1408#sivA" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Level-03-Web-Automation/Flask/BlogPost New_User Login/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="100-Days-of-Python-Code" />
-      <option name="ENV_FILES" value="$USER_HOME$/Desktop/Credencials.env" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="E-MAIL" value="sivam4266@gmail.com" />
-        <env name="MOBILE NO" value="9361325427" />
-        <env name="PASSWORD" value="1408#sivA" />
-        <env name="FLASK_ENV" value="f4ds6r467885432eertyhft666789u7655" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Level-03-Web-Automation/Flask/Dpelopying-webpage/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732457797417</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1733109052878</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733109052878</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -385,7 +335,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <MESSAGE value="Update commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update commit" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
