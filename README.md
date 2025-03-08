@@ -1,31 +1,32 @@
-# 📌 100 Days of Python - My Learning Journey
+# 100 Days of Python Code
 
-Welcome to my **100 Days of Python** journey! 🚀 This repository/blog tracks my daily progress as I learn and apply Python concepts.
+Welcome to the 100 Days of Python Code repository. This repository contains various projects and code examples organized by difficulty level.
 
----
+## Directory Structure
 
-## 📅 Course Structure  
+- **Level-01-Basics**: Beginner-level projects.
+- **Level-02-Intermediate**: Intermediate-level projects.
+- **Level-03-Web-Automation**: Projects related to web automation using Flask and other tools.
+- **Level-04-Advanced**: Advanced-level projects.
 
-- **Days 1-20**: Python Basics & Data Structures  
-- **Days 21-40**: Object-Oriented Programming & File Handling  
-- **Days 41-60**: Web Scraping, APIs & Databases  
-- **Days 61-80**: Flask, Django & Web Development  
-- **Days 81-100**: Data Science, Automation & AI  
+## Getting Started
 
----
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Sva-Dagger/100-Days-of-Python-Code.git
+    ```
 
-## 📖 What I Have Learned  
+2. Navigate to the desired project directory:
+    ```bash
+    cd 100-Days-of-Python-Code/Level-01-Basics/Project1
+    ```
 
-### 🏆 Day 1: Introduction to Python, Variables & Data Types  
-- Understanding Python syntax  
-- Working with variables and data types  
+3. Follow the instructions in the project-specific README file.
 
-#### Sample Code:
-```python
-# Hello World Program
-print("Hello, Python!")
+## Contributing
 
-# Variables
-name = "Sivam"
-age = 25
-print(f"My name is {name} and I am {age} years old.")
+Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
