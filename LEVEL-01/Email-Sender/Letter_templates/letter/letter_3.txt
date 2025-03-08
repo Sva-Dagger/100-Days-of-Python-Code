@@ -1,0 +1,6 @@
+Hello [NAME],
+
+It's your special day! Happy Birthday! May all your dreams come true.
+
+Warm regards,
+[Your Name]
